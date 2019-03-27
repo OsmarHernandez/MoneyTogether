@@ -15,6 +15,10 @@
 		20F5D260224C199400C2533C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D25F224C199400C2533C /* Assets.xcassets */; };
 		20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D261224C199400C2533C /* LaunchScreen.storyboard */; };
 		20F5D26B224C1F6900C2533C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D26A224C1F6900C2533C /* User.swift */; };
+		DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */; };
+		DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */; };
+		DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */; };
+		DA449D66224C2E97006D61DF /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D65224C2E97006D61DF /* Montserrat-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		20F5D262224C199400C2533C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F5D264224C199400C2533C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20F5D26A224C1F6900C2533C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		DA449D65224C2E97006D61DF /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 		20F5D257224C199200C2533C /* MoneyTogether */ = {
 			isa = PBXGroup;
 			children = (
+				DA449D5D224C2DB9006D61DF /* Fonts */,
 				20F5D258224C199200C2533C /* AppDelegate.swift */,
 				20F5D25A224C199200C2533C /* ViewController.swift */,
 				20F5D26A224C1F6900C2533C /* User.swift */,
@@ -71,6 +80,25 @@
 				20F5D264224C199400C2533C /* Info.plist */,
 			);
 			path = MoneyTogether;
+			sourceTree = "<group>";
+		};
+		DA449D5D224C2DB9006D61DF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA449D5E224C2DC2006D61DF /* Montserrat */,
+				DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */,
+				DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */,
+				DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */,
+				DA449D65224C2E97006D61DF /* Montserrat-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DA449D5E224C2DC2006D61DF /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Montserrat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +159,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */,
+				DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */,
+				DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */,
 				20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */,
 				20F5D260224C199400C2533C /* Assets.xcassets in Resources */,
 				20F5D25E224C199200C2533C /* Main.storyboard in Resources */,
+				DA449D66224C2E97006D61DF /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,14 +327,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FCZ5M2EEKH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pastdue.MoneyTogether;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pastdue.MoneyTogether.jaime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -314,14 +346,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FCZ5M2EEKH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pastdue.MoneyTogether;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pastdue.MoneyTogether.jaime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
