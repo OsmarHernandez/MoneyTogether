@@ -10,6 +10,27 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    
+    @IBAction func requestLoanButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func activeLoansButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func makePaymentButton(_ sender: Any) {
+    }
+    
+    @IBAction func loanMoneyButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func loanedMoneyButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func userInfoButton(_ sender: UIButton) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
