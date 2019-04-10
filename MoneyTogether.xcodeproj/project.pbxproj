@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20133AE3225E98400063C33F /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20133AE2225E98400063C33F /* OnBoarding.storyboard */; };
+		20133AE5225E9C020063C33F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20133AE4225E9C020063C33F /* RoundButton.swift */; };
 		2098A3B8224C21C400293346 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B7224C21C400293346 /* MainViewController.swift */; };
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
 		20F5D259224C199200C2533C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D258224C199200C2533C /* AppDelegate.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20133AE2225E98400063C33F /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		20133AE4225E9C020063C33F /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		2098A3B7224C21C400293346 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20F5D255224C199200C2533C /* MoneyTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20133AE6225E9C080063C33F /* Custom Elements */ = {
+			isa = PBXGroup;
+			children = (
+				20133AE4225E9C020063C33F /* RoundButton.swift */,
+			);
+			path = "Custom Elements";
+			sourceTree = "<group>";
+		};
 		20F5D24C224C199200C2533C = {
 			isa = PBXGroup;
 			children = (
@@ -73,11 +85,13 @@
 				20F5D25A224C199200C2533C /* ViewController.swift */,
 				20F5D26A224C1F6900C2533C /* User.swift */,
 				20F5D25C224C199200C2533C /* Main.storyboard */,
+				20133AE2225E98400063C33F /* OnBoarding.storyboard */,
 				2098A3B9224C230C00293346 /* LoginViewController.swift */,
 				2098A3B7224C21C400293346 /* MainViewController.swift */,
 				20F5D25F224C199400C2533C /* Assets.xcassets */,
 				20F5D261224C199400C2533C /* LaunchScreen.storyboard */,
 				20F5D264224C199400C2533C /* Info.plist */,
+				20133AE6225E9C080063C33F /* Custom Elements */,
 			);
 			path = MoneyTogether;
 			sourceTree = "<group>";
@@ -98,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Montserrat;
+			name = Montserrat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +180,7 @@
 				20F5D260224C199400C2533C /* Assets.xcassets in Resources */,
 				20F5D25E224C199200C2533C /* Main.storyboard in Resources */,
 				DA449D66224C2E97006D61DF /* Montserrat-Bold.ttf in Resources */,
+				20133AE3225E98400063C33F /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20133AE5225E9C020063C33F /* RoundButton.swift in Sources */,
 				20F5D25B224C199200C2533C /* ViewController.swift in Sources */,
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
 				20F5D26B224C1F6900C2533C /* User.swift in Sources */,
