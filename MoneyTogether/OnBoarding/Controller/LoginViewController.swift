@@ -24,9 +24,10 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func continueButton(_ sender: UIButton) {
-        let email = emailTextField.text!
-        let password = passwordTextField.text!
-        
+        guard let email = emailTextField.text, let password = passwordTextField.text else {
+            return
+        }
+                
         FirebaseManager.login(with: email, and: password) {
             (success) in
             
