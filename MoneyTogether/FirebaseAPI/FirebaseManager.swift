@@ -11,8 +11,10 @@ import FirebaseAuth
 
 public struct FirebaseManager {
     
-    /*
-     * Funcion del programa
+    typealias FirebaseUser = User
+    
+    /**
+     * Funcion del tipo FirebaseManager
      *
      *  parametros:
      *  email: email ingresado por el usuario
@@ -22,7 +24,7 @@ public struct FirebaseManager {
     public static func login(with email: String, and password: String, completion: @escaping (_ success: Bool) -> ()) {
         
         /*
-         * Function de firebase
+         * Funcion de firebase
          *
          * parametros:
          *  email
@@ -37,6 +39,56 @@ public struct FirebaseManager {
                 completion(false)
             }
         }
+    }
+    
+    /**
+     * Funcion del tipo FirebaseManager
+     *
+     * parametros:
+     *  user: Cuenta creada por el usuario
+     */
+    public static func create(completion: @escaping (_ success: Bool) -> ()) {
+        
+        let email = "money.together.tec@gmail.com"
+        let password = "passwd"
+        
+        /*
+         * Funcion de firebase
+         *
+         * parametros:
+         *  email
+         *  password
+         */
+        Auth.auth().createUser(withEmail: email, password: password) {
+            (result, error) in
+            
+            if error == nil {
+                let firstname = "Money"
+                let lastname = "Together"
+                
+                let user = User(firstname: firstname, lastname: lastname, email: email, password: password)
+                user.uid = result?.user.uid
+                
+                add(new: user)
+                
+                completion(true)
+            } else {
+                completion(false)
+            }
+        }
+    }
+    
+    /**
+     * Funcion del tipo FirebaseManager
+     * parametros:
+     *  user: Cuenta confirmada por Firebase
+     */
+    private static func add(new user: User) {
+        guard let uid = user.uid else {
+            return
+        }
+        
+        DatabaseReference.reference.child("Users").child(uid).setValue(user.representation)
     }
 }
 

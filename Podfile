@@ -8,5 +8,6 @@ target 'MoneyTogether' do
   # Pods for MoneyTogether
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 
 end

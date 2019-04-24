@@ -12,6 +12,8 @@
 		207B21322270E30E00E32B9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207B21312270E30E00E32B9B /* GoogleService-Info.plist */; };
 		207B21392270E7F800E32B9B /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B21382270E7F800E32B9B /* FirebaseManager.swift */; };
 		207B213B2270FD5E00E32B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207B213A2270FD5E00E32B9B /* Main.storyboard */; };
+		207B213D227113EA00E32B9B /* DatabaseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B213C227113EA00E32B9B /* DatabaseRepresentation.swift */; };
+		207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B213E22711F0200E32B9B /* DatabaseReference.swift */; };
 		2098A3B8224C21C400293346 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B7224C21C400293346 /* MainViewController.swift */; };
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
 		20F5D259224C199200C2533C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D258224C199200C2533C /* AppDelegate.swift */; };
@@ -32,6 +34,8 @@
 		207B21312270E30E00E32B9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		207B21382270E7F800E32B9B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		207B213A2270FD5E00E32B9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		207B213C227113EA00E32B9B /* DatabaseRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseRepresentation.swift; sourceTree = "<group>"; };
+		207B213E22711F0200E32B9B /* DatabaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseReference.swift; sourceTree = "<group>"; };
 		2098A3B7224C21C400293346 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20F5D255224C199200C2533C /* MoneyTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				207B21382270E7F800E32B9B /* FirebaseManager.swift */,
+				207B213C227113EA00E32B9B /* DatabaseRepresentation.swift */,
+				207B213E22711F0200E32B9B /* DatabaseReference.swift */,
 			);
 			path = FirebaseAPI;
 			sourceTree = "<group>";
@@ -301,6 +307,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -309,6 +316,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +338,8 @@
 				20F5D26B224C1F6900C2533C /* User.swift in Sources */,
 				2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */,
 				2098A3B8224C21C400293346 /* MainViewController.swift in Sources */,
+				207B213D227113EA00E32B9B /* DatabaseRepresentation.swift in Sources */,
+				207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DWQVM22U2L;
+				DEVELOPMENT_TEAM = FCZ5M2EEKH;
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -489,7 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DWQVM22U2L;
+				DEVELOPMENT_TEAM = FCZ5M2EEKH;
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
