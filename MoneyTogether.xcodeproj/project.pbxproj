@@ -11,11 +11,11 @@
 		20133AE5225E9C020063C33F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20133AE4225E9C020063C33F /* RoundButton.swift */; };
 		207B21322270E30E00E32B9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207B21312270E30E00E32B9B /* GoogleService-Info.plist */; };
 		207B21392270E7F800E32B9B /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B21382270E7F800E32B9B /* FirebaseManager.swift */; };
+		207B213B2270FD5E00E32B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207B213A2270FD5E00E32B9B /* Main.storyboard */; };
 		2098A3B8224C21C400293346 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B7224C21C400293346 /* MainViewController.swift */; };
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
 		20F5D259224C199200C2533C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D258224C199200C2533C /* AppDelegate.swift */; };
 		20F5D25B224C199200C2533C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D25A224C199200C2533C /* ViewController.swift */; };
-		20F5D25E224C199200C2533C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D25C224C199200C2533C /* Main.storyboard */; };
 		20F5D260224C199400C2533C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D25F224C199400C2533C /* Assets.xcassets */; };
 		20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D261224C199400C2533C /* LaunchScreen.storyboard */; };
 		20F5D26B224C1F6900C2533C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D26A224C1F6900C2533C /* User.swift */; };
@@ -31,12 +31,12 @@
 		20133AE4225E9C020063C33F /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		207B21312270E30E00E32B9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		207B21382270E7F800E32B9B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		207B213A2270FD5E00E32B9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2098A3B7224C21C400293346 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20F5D255224C199200C2533C /* MoneyTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F5D258224C199200C2533C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F5D25A224C199200C2533C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20F5D25D224C199200C2533C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20F5D25F224C199400C2533C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20F5D262224C199400C2533C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F5D264224C199400C2533C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 				206F5FB52270DBA70002A2DE /* OnBoarding */,
 				207B21332270E79300E32B9B /* FirebaseAPI */,
 				20F5D25A224C199200C2533C /* ViewController.swift */,
-				20F5D25C224C199200C2533C /* Main.storyboard */,
+				207B213A2270FD5E00E32B9B /* Main.storyboard */,
 				2098A3B7224C21C400293346 /* MainViewController.swift */,
 				20F5D264224C199400C2533C /* Info.plist */,
 				20133AE6225E9C080063C33F /* Custom Elements */,
@@ -254,12 +254,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */,
+				207B213B2270FD5E00E32B9B /* Main.storyboard in Resources */,
 				DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */,
 				207B21322270E30E00E32B9B /* GoogleService-Info.plist in Resources */,
 				DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */,
 				20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */,
 				20F5D260224C199400C2533C /* Assets.xcassets in Resources */,
-				20F5D25E224C199200C2533C /* Main.storyboard in Resources */,
 				DA449D66224C2E97006D61DF /* Montserrat-Bold.ttf in Resources */,
 				20133AE3225E98400063C33F /* OnBoarding.storyboard in Resources */,
 			);
@@ -336,14 +336,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		20F5D25C224C199200C2533C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20F5D25D224C199200C2533C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		20F5D261224C199400C2533C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
