@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20133AE3225E98400063C33F /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20133AE2225E98400063C33F /* OnBoarding.storyboard */; };
+		20133AE5225E9C020063C33F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20133AE4225E9C020063C33F /* RoundButton.swift */; };
+		207B21322270E30E00E32B9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207B21312270E30E00E32B9B /* GoogleService-Info.plist */; };
+		207B21392270E7F800E32B9B /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B21382270E7F800E32B9B /* FirebaseManager.swift */; };
 		2098A3B8224C21C400293346 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B7224C21C400293346 /* MainViewController.swift */; };
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
 		20F5D259224C199200C2533C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D258224C199200C2533C /* AppDelegate.swift */; };
@@ -15,9 +19,18 @@
 		20F5D260224C199400C2533C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D25F224C199400C2533C /* Assets.xcassets */; };
 		20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D261224C199400C2533C /* LaunchScreen.storyboard */; };
 		20F5D26B224C1F6900C2533C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D26A224C1F6900C2533C /* User.swift */; };
+		3DCE5EF8D1AE9AB249F2E299 /* Pods_MoneyTogether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B561CE4CBFA5489C599826 /* Pods_MoneyTogether.framework */; };
+		DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */; };
+		DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */; };
+		DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */; };
+		DA449D66224C2E97006D61DF /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D65224C2E97006D61DF /* Montserrat-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20133AE2225E98400063C33F /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		20133AE4225E9C020063C33F /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		207B21312270E30E00E32B9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		207B21382270E7F800E32B9B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		2098A3B7224C21C400293346 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20F5D255224C199200C2533C /* MoneyTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +41,13 @@
 		20F5D262224C199400C2533C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F5D264224C199400C2533C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20F5D26A224C1F6900C2533C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		38B671549435A84B060CA188 /* Pods-MoneyTogether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTogether.release.xcconfig"; path = "Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether.release.xcconfig"; sourceTree = "<group>"; };
+		3BBBFB1ACB6A21287E1139CC /* Pods-MoneyTogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTogether.debug.xcconfig"; path = "Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether.debug.xcconfig"; sourceTree = "<group>"; };
+		DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		DA449D65224C2E97006D61DF /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		F1B561CE4CBFA5489C599826 /* Pods_MoneyTogether.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyTogether.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +55,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCE5EF8D1AE9AB249F2E299 /* Pods_MoneyTogether.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20133AE6225E9C080063C33F /* Custom Elements */ = {
+			isa = PBXGroup;
+			children = (
+				20133AE4225E9C020063C33F /* RoundButton.swift */,
+			);
+			path = "Custom Elements";
+			sourceTree = "<group>";
+		};
+		206F5FB32270DAE40002A2DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20F5D258224C199200C2533C /* AppDelegate.swift */,
+				20F5D25F224C199400C2533C /* Assets.xcassets */,
+				20F5D261224C199400C2533C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		206F5FB52270DBA70002A2DE /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				207B21372270E7D000E32B9B /* Controller */,
+				207B21352270E7BC00E32B9B /* View */,
+				207B21342270E7B600E32B9B /* Model */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		207B21332270E79300E32B9B /* FirebaseAPI */ = {
+			isa = PBXGroup;
+			children = (
+				207B21382270E7F800E32B9B /* FirebaseManager.swift */,
+			);
+			path = FirebaseAPI;
+			sourceTree = "<group>";
+		};
+		207B21342270E7B600E32B9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20F5D26A224C1F6900C2533C /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		207B21352270E7BC00E32B9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20133AE2225E98400063C33F /* OnBoarding.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		207B21372270E7D000E32B9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2098A3B9224C230C00293346 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		20F5D24C224C199200C2533C = {
 			isa = PBXGroup;
 			children = (
 				20F5D257224C199200C2533C /* MoneyTogether */,
 				20F5D256224C199200C2533C /* Products */,
+				7849ECE784FB0D0D2229E225 /* Pods */,
+				F12E96DE56C144FD17D2037B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +143,54 @@
 		20F5D257224C199200C2533C /* MoneyTogether */ = {
 			isa = PBXGroup;
 			children = (
-				20F5D258224C199200C2533C /* AppDelegate.swift */,
+				207B21312270E30E00E32B9B /* GoogleService-Info.plist */,
+				DA449D5D224C2DB9006D61DF /* Fonts */,
+				206F5FB32270DAE40002A2DE /* Supporting Files */,
+				206F5FB52270DBA70002A2DE /* OnBoarding */,
+				207B21332270E79300E32B9B /* FirebaseAPI */,
 				20F5D25A224C199200C2533C /* ViewController.swift */,
-				20F5D26A224C1F6900C2533C /* User.swift */,
 				20F5D25C224C199200C2533C /* Main.storyboard */,
-				2098A3B9224C230C00293346 /* LoginViewController.swift */,
 				2098A3B7224C21C400293346 /* MainViewController.swift */,
-				20F5D25F224C199400C2533C /* Assets.xcassets */,
-				20F5D261224C199400C2533C /* LaunchScreen.storyboard */,
 				20F5D264224C199400C2533C /* Info.plist */,
+				20133AE6225E9C080063C33F /* Custom Elements */,
 			);
 			path = MoneyTogether;
+			sourceTree = "<group>";
+		};
+		7849ECE784FB0D0D2229E225 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BBBFB1ACB6A21287E1139CC /* Pods-MoneyTogether.debug.xcconfig */,
+				38B671549435A84B060CA188 /* Pods-MoneyTogether.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA449D5D224C2DB9006D61DF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA449D5E224C2DC2006D61DF /* Montserrat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DA449D5E224C2DC2006D61DF /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */,
+				DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */,
+				DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */,
+				DA449D65224C2E97006D61DF /* Montserrat-Bold.ttf */,
+			);
+			name = Montserrat;
+			sourceTree = "<group>";
+		};
+		F12E96DE56C144FD17D2037B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1B561CE4CBFA5489C599826 /* Pods_MoneyTogether.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20F5D267224C199400C2533C /* Build configuration list for PBXNativeTarget "MoneyTogether" */;
 			buildPhases = (
+				CA9B851085F89C43F7126F66 /* [CP] Check Pods Manifest.lock */,
 				20F5D251224C199200C2533C /* Sources */,
 				20F5D252224C199200C2533C /* Frameworks */,
 				20F5D253224C199200C2533C /* Resources */,
+				F437559208FAF0059D7648A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,20 +253,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */,
+				DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */,
+				207B21322270E30E00E32B9B /* GoogleService-Info.plist in Resources */,
+				DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */,
 				20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */,
 				20F5D260224C199400C2533C /* Assets.xcassets in Resources */,
 				20F5D25E224C199200C2533C /* Main.storyboard in Resources */,
+				DA449D66224C2E97006D61DF /* Montserrat-Bold.ttf in Resources */,
+				20133AE3225E98400063C33F /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA9B851085F89C43F7126F66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyTogether-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F437559208FAF0059D7648A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20F5D251224C199200C2533C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20133AE5225E9C020063C33F /* RoundButton.swift in Sources */,
 				20F5D25B224C199200C2533C /* ViewController.swift in Sources */,
+				207B21392270E7F800E32B9B /* FirebaseManager.swift in Sources */,
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
 				20F5D26B224C1F6900C2533C /* User.swift in Sources */,
 				2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */,
@@ -292,6 +473,7 @@
 		};
 		20F5D268224C199400C2533C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBBFB1ACB6A21287E1139CC /* Pods-MoneyTogether.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +493,7 @@
 		};
 		20F5D269224C199400C2533C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B671549435A84B060CA188 /* Pods-MoneyTogether.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
