@@ -7,6 +7,12 @@
 //
 
 import UIKit
+//import Firebase
+//
+//
+//var ref: DatabaseReference!
+//
+//ref = Database.database().reference()
 
 class ActiveLoansController: UIViewController {
     let items = ["Primero","Carro","Hipoteca"]
@@ -20,11 +26,16 @@ extension ActiveLoansController: UICollectionViewDelegate, UICollectionViewDataS
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        // Esta cuenta tambien tiene que salir de FireBase
         return items.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let activeLoansCell = collectionView.dequeueReusableCell(withReuseIdentifier: "activeLoansCell", for: indexPath) as! CollectionViewCellActiveLoans
+        
+        
+        
         
         // Esta inforamcion va a ser recuperada de FireBase
         activeLoansCell.loanNameLabel.text = items[indexPath.row]

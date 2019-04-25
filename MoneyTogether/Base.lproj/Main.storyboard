@@ -167,7 +167,6 @@
         <!--Active Loans-->
         <scene sceneID="zb5-i5-vGy">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="X8u-Hm-aIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="EWa-tf-xec" customClass="ActiveLoansController" customModule="MoneyTogether" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xw1-CD-zzb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -233,6 +232,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Active Loans" id="iKj-JI-IRq"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X8u-Hm-aIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1829.5999999999999" y="-391.75412293853077"/>
         </scene>
