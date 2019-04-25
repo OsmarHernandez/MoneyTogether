@@ -11,12 +11,10 @@
 		20133AE5225E9C020063C33F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20133AE4225E9C020063C33F /* RoundButton.swift */; };
 		207B21322270E30E00E32B9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207B21312270E30E00E32B9B /* GoogleService-Info.plist */; };
 		207B21392270E7F800E32B9B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B21382270E7F800E32B9B /* UserManager.swift */; };
-		207B213B2270FD5E00E32B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207B213A2270FD5E00E32B9B /* Main.storyboard */; };
 		207B213D227113EA00E32B9B /* DatabaseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B213C227113EA00E32B9B /* DatabaseRepresentation.swift */; };
 		207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B213E22711F0200E32B9B /* DatabaseReference.swift */; };
 		208053A5227239B10087B947 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A4227239B10087B947 /* Card.swift */; };
 		208053A7227242D00087B947 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A6227242D00087B947 /* CardManager.swift */; };
-		207B21392270E7F800E32B9B /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B21382270E7F800E32B9B /* FirebaseManager.swift */; };
 		2098A3B8224C21C400293346 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B7224C21C400293346 /* MainViewController.swift */; };
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
 		20F5D259224C199200C2533C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D258224C199200C2533C /* AppDelegate.swift */; };
@@ -39,12 +37,10 @@
 		20133AE4225E9C020063C33F /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		207B21312270E30E00E32B9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		207B21382270E7F800E32B9B /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
-		207B213A2270FD5E00E32B9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		207B213C227113EA00E32B9B /* DatabaseRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseRepresentation.swift; sourceTree = "<group>"; };
 		207B213E22711F0200E32B9B /* DatabaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseReference.swift; sourceTree = "<group>"; };
 		208053A4227239B10087B947 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		208053A6227242D00087B947 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
-		207B21382270E7F800E32B9B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		2098A3B7224C21C400293346 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20F5D255224C199200C2533C /* MoneyTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -366,7 +362,7 @@
 				20133AE5225E9C020063C33F /* RoundButton.swift in Sources */,
 				20F5D25B224C199200C2533C /* ViewController.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
-				207B21392270E7F800E32B9B /* FirebaseManager.swift in Sources */,
+				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
 				B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */,
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
 				20F5D26B224C1F6900C2533C /* User.swift in Sources */,
