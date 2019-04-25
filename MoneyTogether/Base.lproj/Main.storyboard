@@ -94,6 +94,15 @@
                                     <action selector="testButton:" destination="djW-9p-8ZU" eventType="touchUpInside" id="def-tO-NOs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTM-Ty-TPN">
+                                <rect key="frame" x="95" y="394" width="194" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="25"/>
+                                <state key="normal" title="Agregar Tarjeta"/>
+                                <connections>
+                                    <action selector="addCardButton:" destination="djW-9p-8ZU" eventType="touchUpInside" id="Spu-iQ-Ffv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Td-BQ-2h6"/>

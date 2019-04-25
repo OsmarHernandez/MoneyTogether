@@ -1,5 +1,5 @@
 //
-//  FirebaseManager.swift
+//  UserManager.swift
 //  MoneyTogether
 //
 //  Created by Osmar Hernández on 24/04/19.
@@ -9,12 +9,12 @@
 import Foundation
 import FirebaseAuth
 
-public struct FirebaseManager {
+public struct UserManager {
     
     typealias FirebaseUser = User
     
     /**
-     * Funcion del tipo FirebaseManager
+     * Funcion del tipo UserManager
      *
      *  parametros:
      *  email: email ingresado por el usuario
@@ -42,7 +42,7 @@ public struct FirebaseManager {
     }
     
     /**
-     * Funcion del tipo FirebaseManager
+     * Funcion del tipo UserManager
      *
      * parametros:
      *  user: Cuenta creada por el usuario
@@ -79,7 +79,7 @@ public struct FirebaseManager {
     }
     
     /**
-     * Funcion del tipo FirebaseManager
+     * Funcion del tipo UserManager
      * parametros:
      *  user: Cuenta confirmada por Firebase
      */

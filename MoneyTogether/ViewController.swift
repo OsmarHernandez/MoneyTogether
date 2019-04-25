@@ -18,5 +18,15 @@ class ViewController: UIViewController {
             print(uid)
         }
     }
+    
+    @IBAction func addCardButton(_ sender: UIButton) {
+        let number = "5579 2461 0921 6732"
+        let expirationDate = ("02", "21")
+        let type = Card.CardType.debit
+        
+        let card = Card(number: number, expirationDate: expirationDate, type: type, name: nil)
+        
+        CardManager.add(new: card)
+    }
 }
 

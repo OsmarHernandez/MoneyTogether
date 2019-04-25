@@ -28,7 +28,7 @@ class LoginViewController: UIViewController {
             return
         }
                 
-        FirebaseManager.login(with: email, and: password) {
+        UserManager.login(with: email, and: password) {
             (success) in
             
             if success {
@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
      * Only as a Test
      */
     @IBAction func newAccountButton(_ sender: UIButton) {
-        FirebaseManager.create {
+        UserManager.create {
             (success) in
             
             if success {

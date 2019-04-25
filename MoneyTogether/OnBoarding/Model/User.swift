@@ -6,7 +6,7 @@
 //  Copyright © 2019 pastdue. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 // TODO: Add imageURL
 
