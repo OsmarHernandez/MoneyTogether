@@ -16,14 +16,18 @@
 		207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B213E22711F0200E32B9B /* DatabaseReference.swift */; };
 		208053A5227239B10087B947 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A4227239B10087B947 /* Card.swift */; };
 		208053A7227242D00087B947 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A6227242D00087B947 /* CardManager.swift */; };
+		207B21392270E7F800E32B9B /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B21382270E7F800E32B9B /* FirebaseManager.swift */; };
 		2098A3B8224C21C400293346 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B7224C21C400293346 /* MainViewController.swift */; };
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
 		20F5D259224C199200C2533C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D258224C199200C2533C /* AppDelegate.swift */; };
 		20F5D25B224C199200C2533C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D25A224C199200C2533C /* ViewController.swift */; };
+		20F5D25E224C199200C2533C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D25C224C199200C2533C /* Main.storyboard */; };
 		20F5D260224C199400C2533C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D25F224C199400C2533C /* Assets.xcassets */; };
 		20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D261224C199400C2533C /* LaunchScreen.storyboard */; };
 		20F5D26B224C1F6900C2533C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D26A224C1F6900C2533C /* User.swift */; };
 		3DCE5EF8D1AE9AB249F2E299 /* Pods_MoneyTogether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B561CE4CBFA5489C599826 /* Pods_MoneyTogether.framework */; };
+		B43828632271218500B42F53 /* CollectionViewCellActiveLoans.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43828622271218500B42F53 /* CollectionViewCellActiveLoans.swift */; };
+		B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4382864227122D300B42F53 /* ActiveLoansController.swift */; };
 		DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */; };
 		DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */; };
 		DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */; };
@@ -40,17 +44,21 @@
 		207B213E22711F0200E32B9B /* DatabaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseReference.swift; sourceTree = "<group>"; };
 		208053A4227239B10087B947 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		208053A6227242D00087B947 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		207B21382270E7F800E32B9B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		2098A3B7224C21C400293346 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20F5D255224C199200C2533C /* MoneyTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F5D258224C199200C2533C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F5D25A224C199200C2533C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20F5D25D224C199200C2533C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20F5D25F224C199400C2533C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20F5D262224C199400C2533C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F5D264224C199400C2533C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20F5D26A224C1F6900C2533C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		38B671549435A84B060CA188 /* Pods-MoneyTogether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTogether.release.xcconfig"; path = "Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether.release.xcconfig"; sourceTree = "<group>"; };
 		3BBBFB1ACB6A21287E1139CC /* Pods-MoneyTogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTogether.debug.xcconfig"; path = "Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether.debug.xcconfig"; sourceTree = "<group>"; };
+		B43828622271218500B42F53 /* CollectionViewCellActiveLoans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellActiveLoans.swift; sourceTree = "<group>"; };
+		B4382864227122D300B42F53 /* ActiveLoansController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveLoansController.swift; sourceTree = "<group>"; };
 		DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -163,13 +171,14 @@
 			isa = PBXGroup;
 			children = (
 				208053A3227239980087B947 /* Model */,
+				B4382866227122DD00B42F53 /* Active Loans */,
 				207B21312270E30E00E32B9B /* GoogleService-Info.plist */,
 				DA449D5D224C2DB9006D61DF /* Fonts */,
 				206F5FB32270DAE40002A2DE /* Supporting Files */,
 				206F5FB52270DBA70002A2DE /* OnBoarding */,
 				207B21332270E79300E32B9B /* FirebaseAPI */,
 				20F5D25A224C199200C2533C /* ViewController.swift */,
-				207B213A2270FD5E00E32B9B /* Main.storyboard */,
+				20F5D25C224C199200C2533C /* Main.storyboard */,
 				2098A3B7224C21C400293346 /* MainViewController.swift */,
 				20F5D264224C199400C2533C /* Info.plist */,
 				20133AE6225E9C080063C33F /* Custom Elements */,
@@ -184,6 +193,15 @@
 				38B671549435A84B060CA188 /* Pods-MoneyTogether.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4382866227122DD00B42F53 /* Active Loans */ = {
+			isa = PBXGroup;
+			children = (
+				B4382864227122D300B42F53 /* ActiveLoansController.swift */,
+				B43828622271218500B42F53 /* CollectionViewCellActiveLoans.swift */,
+			);
+			path = "Active Loans";
 			sourceTree = "<group>";
 		};
 		DA449D5D224C2DB9006D61DF /* Fonts */ = {
@@ -274,12 +292,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */,
-				207B213B2270FD5E00E32B9B /* Main.storyboard in Resources */,
 				DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */,
 				207B21322270E30E00E32B9B /* GoogleService-Info.plist in Resources */,
 				DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */,
 				20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */,
 				20F5D260224C199400C2533C /* Assets.xcassets in Resources */,
+				20F5D25E224C199200C2533C /* Main.storyboard in Resources */,
 				DA449D66224C2E97006D61DF /* Montserrat-Bold.ttf in Resources */,
 				20133AE3225E98400063C33F /* OnBoarding.storyboard in Resources */,
 			);
@@ -348,9 +366,12 @@
 				20133AE5225E9C020063C33F /* RoundButton.swift in Sources */,
 				20F5D25B224C199200C2533C /* ViewController.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
+				207B21392270E7F800E32B9B /* FirebaseManager.swift in Sources */,
+				B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */,
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
 				20F5D26B224C1F6900C2533C /* User.swift in Sources */,
 				2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */,
+				B43828632271218500B42F53 /* CollectionViewCellActiveLoans.swift in Sources */,
 				2098A3B8224C21C400293346 /* MainViewController.swift in Sources */,
 				208053A5227239B10087B947 /* Card.swift in Sources */,
 				208053A7227242D00087B947 /* CardManager.swift in Sources */,
@@ -362,6 +383,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		20F5D25C224C199200C2533C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F5D25D224C199200C2533C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		20F5D261224C199400C2533C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
