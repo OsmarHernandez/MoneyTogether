@@ -26,6 +26,7 @@
 		3DCE5EF8D1AE9AB249F2E299 /* Pods_MoneyTogether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B561CE4CBFA5489C599826 /* Pods_MoneyTogether.framework */; };
 		B43828632271218500B42F53 /* CollectionViewCellActiveLoans.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43828622271218500B42F53 /* CollectionViewCellActiveLoans.swift */; };
 		B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4382864227122D300B42F53 /* ActiveLoansController.swift */; };
+		DA18B3782273B2BA00972354 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA18B3772273B2BA00972354 /* SignInViewController.swift */; };
 		DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */; };
 		DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */; };
 		DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */; };
@@ -55,6 +56,7 @@
 		3BBBFB1ACB6A21287E1139CC /* Pods-MoneyTogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTogether.debug.xcconfig"; path = "Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether.debug.xcconfig"; sourceTree = "<group>"; };
 		B43828622271218500B42F53 /* CollectionViewCellActiveLoans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellActiveLoans.swift; sourceTree = "<group>"; };
 		B4382864227122D300B42F53 /* ActiveLoansController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveLoansController.swift; sourceTree = "<group>"; };
+		DA18B3772273B2BA00972354 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				2098A3B9224C230C00293346 /* LoginViewController.swift */,
+				DA18B3772273B2BA00972354 /* SignInViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
 				B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */,
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
+				DA18B3782273B2BA00972354 /* SignInViewController.swift in Sources */,
 				20F5D26B224C1F6900C2533C /* User.swift in Sources */,
 				2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */,
 				B43828632271218500B42F53 /* CollectionViewCellActiveLoans.swift in Sources */,
