@@ -20,6 +20,7 @@
 		20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D261224C199400C2533C /* LaunchScreen.storyboard */; };
 		20F5D26B224C1F6900C2533C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D26A224C1F6900C2533C /* User.swift */; };
 		3DCE5EF8D1AE9AB249F2E299 /* Pods_MoneyTogether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B561CE4CBFA5489C599826 /* Pods_MoneyTogether.framework */; };
+		DA18B3782273B2BA00972354 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA18B3772273B2BA00972354 /* SignInViewController.swift */; };
 		DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */; };
 		DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */; };
 		DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */; };
@@ -43,6 +44,7 @@
 		20F5D26A224C1F6900C2533C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		38B671549435A84B060CA188 /* Pods-MoneyTogether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTogether.release.xcconfig"; path = "Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether.release.xcconfig"; sourceTree = "<group>"; };
 		3BBBFB1ACB6A21287E1139CC /* Pods-MoneyTogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTogether.debug.xcconfig"; path = "Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether.debug.xcconfig"; sourceTree = "<group>"; };
+		DA18B3772273B2BA00972354 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				2098A3B9224C230C00293346 /* LoginViewController.swift */,
+				DA18B3772273B2BA00972354 /* SignInViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				20F5D25B224C199200C2533C /* ViewController.swift in Sources */,
 				207B21392270E7F800E32B9B /* FirebaseManager.swift in Sources */,
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
+				DA18B3782273B2BA00972354 /* SignInViewController.swift in Sources */,
 				20F5D26B224C1F6900C2533C /* User.swift in Sources */,
 				2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */,
 				2098A3B8224C21C400293346 /* MainViewController.swift in Sources */,
