@@ -120,7 +120,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" textContentType="password"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2e-zV-2va">
                                 <rect key="frame" x="29" y="151" width="49" height="21"/>
@@ -214,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="912.79999999999995" y="-355.7721139430285"/>
         </scene>
-        <!--Main-->
+        <!--Profile-->
         <scene sceneID="tTA-Ru-OQ7">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="5sy-y3-3qO" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Profile" id="5sy-y3-3qO" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9a-qa-ah9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1865" y="-356"/>
