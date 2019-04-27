@@ -17,6 +17,8 @@
 		208053A7227242D00087B947 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A6227242D00087B947 /* CardManager.swift */; };
 		2098A3B8224C21C400293346 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B7224C21C400293346 /* MainViewController.swift */; };
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
+		20D604312273AAE600F4CC52 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D604302273AAE600F4CC52 /* Profile.storyboard */; };
+		20D604372273B11300F4CC52 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D604362273B11300F4CC52 /* AccountViewController.swift */; };
 		20F5D259224C199200C2533C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D258224C199200C2533C /* AppDelegate.swift */; };
 		20F5D25B224C199200C2533C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D25A224C199200C2533C /* ViewController.swift */; };
 		20F5D25E224C199200C2533C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D25C224C199200C2533C /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 		208053A6227242D00087B947 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
 		2098A3B7224C21C400293346 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20D604302273AAE600F4CC52 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		20D604362273B11300F4CC52 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		20F5D255224C199200C2533C /* MoneyTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F5D258224C199200C2533C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F5D25A224C199200C2533C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,9 +101,9 @@
 		206F5FB52270DBA70002A2DE /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
-				207B21372270E7D000E32B9B /* Controller */,
-				207B21352270E7BC00E32B9B /* View */,
 				207B21342270E7B600E32B9B /* Model */,
+				207B21352270E7BC00E32B9B /* View */,
+				207B21372270E7D000E32B9B /* Controller */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -148,6 +152,39 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		20D604322273AB2C00F4CC52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20D604302273AAE600F4CC52 /* Profile.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20D604332273AB3400F4CC52 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				20D604342273AC5C00F4CC52 /* Model */,
+				20D604352273B0AA00F4CC52 /* Controller */,
+				20D604322273AB2C00F4CC52 /* View */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		20D604342273AC5C00F4CC52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20D604352273B0AA00F4CC52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20D604362273B11300F4CC52 /* AccountViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		20F5D24C224C199200C2533C = {
 			isa = PBXGroup;
 			children = (
@@ -171,15 +208,16 @@
 			children = (
 				208053A3227239980087B947 /* Model */,
 				B4382866227122DD00B42F53 /* Active Loans */,
-				207B21312270E30E00E32B9B /* GoogleService-Info.plist */,
-				DA449D5D224C2DB9006D61DF /* Fonts */,
-				206F5FB32270DAE40002A2DE /* Supporting Files */,
 				206F5FB52270DBA70002A2DE /* OnBoarding */,
-				207B21332270E79300E32B9B /* FirebaseAPI */,
+				20D604332273AB3400F4CC52 /* Settings */,
 				20F5D25A224C199200C2533C /* ViewController.swift */,
-				20F5D25C224C199200C2533C /* Main.storyboard */,
 				2098A3B7224C21C400293346 /* MainViewController.swift */,
+				20F5D25C224C199200C2533C /* Main.storyboard */,
+				207B21332270E79300E32B9B /* FirebaseAPI */,
+				206F5FB32270DAE40002A2DE /* Supporting Files */,
+				207B21312270E30E00E32B9B /* GoogleService-Info.plist */,
 				20F5D264224C199400C2533C /* Info.plist */,
+				DA449D5D224C2DB9006D61DF /* Fonts */,
 				20133AE6225E9C080063C33F /* Custom Elements */,
 			);
 			path = MoneyTogether;
@@ -292,6 +330,7 @@
 			files = (
 				DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */,
 				DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */,
+				20D604312273AAE600F4CC52 /* Profile.storyboard in Resources */,
 				207B21322270E30E00E32B9B /* GoogleService-Info.plist in Resources */,
 				DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */,
 				20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */,
@@ -374,6 +413,7 @@
 				B43828632271218500B42F53 /* CollectionViewCellActiveLoans.swift in Sources */,
 				2098A3B8224C21C400293346 /* MainViewController.swift in Sources */,
 				208053A5227239B10087B947 /* Card.swift in Sources */,
+				20D604372273B11300F4CC52 /* AccountViewController.swift in Sources */,
 				208053A7227242D00087B947 /* CardManager.swift in Sources */,
 				207B213D227113EA00E32B9B /* DatabaseRepresentation.swift in Sources */,
 				207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */,

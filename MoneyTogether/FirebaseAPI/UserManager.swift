@@ -71,6 +71,16 @@ public struct UserManager {
                 
                 add(new: user)
                 
+                if let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest() {
+                    changeRequest.displayName = user.getName
+                    changeRequest.commitChanges {
+                        (error) in
+                        if error != nil {
+                            print("There was an error")
+                        }
+                    }
+                }
+                
                 completion(true)
             } else {
                 completion(false)
@@ -89,6 +99,15 @@ public struct UserManager {
         }
         
         DatabaseReference.reference.child("Users").child(uid).setValue(user.representation)
+    }
+    
+    /**
+     * Funcion del tipo UserManager
+     * parametros:
+     *  user: Cuenta confirmada por Firebase
+     */
+    public static func delete(with uid: String) {
+        DatabaseReference.reference.child("Users").child(uid).removeValue()
     }
 }
 
