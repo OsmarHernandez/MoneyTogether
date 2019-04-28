@@ -26,6 +26,8 @@
 		3DCE5EF8D1AE9AB249F2E299 /* Pods_MoneyTogether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B561CE4CBFA5489C599826 /* Pods_MoneyTogether.framework */; };
 		B43828632271218500B42F53 /* CollectionViewCellActiveLoans.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43828622271218500B42F53 /* CollectionViewCellActiveLoans.swift */; };
 		B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4382864227122D300B42F53 /* ActiveLoansController.swift */; };
+		B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D492273CA85003CC750 /* Loan.swift */; };
+		B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D4B22751DC6003CC750 /* Payment.swift */; };
 		DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */; };
 		DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */; };
 		DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */; };
@@ -55,6 +57,8 @@
 		3BBBFB1ACB6A21287E1139CC /* Pods-MoneyTogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTogether.debug.xcconfig"; path = "Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether.debug.xcconfig"; sourceTree = "<group>"; };
 		B43828622271218500B42F53 /* CollectionViewCellActiveLoans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellActiveLoans.swift; sourceTree = "<group>"; };
 		B4382864227122D300B42F53 /* ActiveLoansController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveLoansController.swift; sourceTree = "<group>"; };
+		B46C7D492273CA85003CC750 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		B46C7D4B22751DC6003CC750 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 		DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 			children = (
 				B4382864227122D300B42F53 /* ActiveLoansController.swift */,
 				B43828622271218500B42F53 /* CollectionViewCellActiveLoans.swift */,
+				B46C7D492273CA85003CC750 /* Loan.swift */,
+				B46C7D4B22751DC6003CC750 /* Payment.swift */,
 			);
 			path = "Active Loans";
 			sourceTree = "<group>";
@@ -360,10 +366,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				20133AE5225E9C020063C33F /* RoundButton.swift in Sources */,
+				B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */,
 				20F5D25B224C199200C2533C /* ViewController.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
 				B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */,
+				B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */,
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
 				20F5D26B224C1F6900C2533C /* User.swift in Sources */,
 				2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */,
@@ -520,7 +528,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FCZ5M2EEKH;
+				DEVELOPMENT_TEAM = DWQVM22U2L;
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,7 +548,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FCZ5M2EEKH;
+				DEVELOPMENT_TEAM = DWQVM22U2L;
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
