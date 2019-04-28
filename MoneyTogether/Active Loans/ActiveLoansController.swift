@@ -5,7 +5,8 @@
 //  Created by Antonio Spinola Flores on 4/24/19.
 //  Copyright © 2019 pastdue. All rights reserved.
 //
-
+import Foundation
+import FirebaseAuth
 import UIKit
 //import Firebase
 //
@@ -15,9 +16,16 @@ import UIKit
 //ref = Database.database().reference()
 
 class ActiveLoansController: UIViewController {
-    let items = ["Primero","Carro","Hipoteca"]
+   
+//    var loanTitles = [String] ()
+//
+//    var amountsRemaining = [Int] ()
     
-    let its = ["400","234","345"]
+    
+    
+    override func viewDidLoad()  {
+        super.viewDidLoad()
+    }
 }
 
 extension ActiveLoansController: UICollectionViewDelegate, UICollectionViewDataSource {
@@ -28,19 +36,38 @@ extension ActiveLoansController: UICollectionViewDelegate, UICollectionViewDataS
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         // Esta cuenta tambien tiene que salir de FireBase
-        return items.count
+        return 2
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let activeLoansCell = collectionView.dequeueReusableCell(withReuseIdentifier: "activeLoansCell", for: indexPath) as! CollectionViewCellActiveLoans
         
         
-        
-        
-        // Esta inforamcion va a ser recuperada de FireBase
-        activeLoansCell.loanNameLabel.text = items[indexPath.row]
-        activeLoansCell.amountLabel.text = "$\(its[indexPath.row])"
-        
+        //obtener el titulo del prestamo
+        DatabaseReference.reference.child("Loans").child("LoanID").observeSingleEvent(of: .value, with: { (snapshot) in
+            
+            let myLoans = (DatabaseReference.reference.child("Loans").queryEqual(toValue: ""))
+
+            
+            DispatchQueue.global(qos: .userInitiated).async {
+                // Get user value
+                let value = snapshot.value as? NSDictionary
+                let title = value?["title"] as? String ?? ""
+                
+                //self.loanTitles.append(user)
+                
+                //Get remaining amounts
+                let remaining = value?["remainingAmount"] as? Int ?? 1
+                
+                DispatchQueue.main.async {
+                    activeLoansCell.loanNameLabel.text = title
+                    activeLoansCell.amountLabel.text = "\(remaining)"
+                    
+                }
+                
+                //self.amountsRemaining.append(u)
+            }
+        })
         
         return activeLoansCell
     }
