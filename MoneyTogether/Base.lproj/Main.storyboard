@@ -110,7 +110,7 @@
         <!--View Controller-->
         <scene sceneID="a2N-sP-3sB">
             <objects>
-                <viewController id="SIW-Zj-e7J" sceneMemberID="viewController">
+                <viewController id="SIW-Zj-e7J" customClass="ViewController" customModule="MoneyTogether" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uZY-sP-c2P">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

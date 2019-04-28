@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addCardButton(_ sender: UIButton) {
-        let number = "5579 2461 0921 6732"
-        let expirationDate = ("02", "21")
+        let number = "5579 0374 2301 8189"
+        let expirationDate = ("04", "22")
         let type = Card.CardType.debit
         
         let card = Card(number: number, expirationDate: expirationDate, type: type, name: nil)
