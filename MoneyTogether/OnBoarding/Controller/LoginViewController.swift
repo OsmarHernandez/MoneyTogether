@@ -39,20 +39,4 @@ class LoginViewController: UIViewController {
             }
         }
     }
-    
-    /**
-     * Only as a Test
-     */
-    @IBAction func newAccountButton(_ sender: UIButton) {
-        UserManager.create {
-            (success) in
-            
-            if success {
-                print("Usuario Creado!")
-                self.performSegue(withIdentifier: "showMainSegue", sender: sender)
-            } else {
-                print("Algo salio mal")
-            }
-        }
-    }
 }

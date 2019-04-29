@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		200B84132275434E0080DAB0 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200B84122275434E0080DAB0 /* OnBoarding.storyboard */; };
+		20077AD12277AF13008714CD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20077AD02277AF13008714CD /* Home.storyboard */; };
 		200B83E32274DED30080DAB0 /* SignInPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B83E22274DED30080DAB0 /* SignInPageViewController.swift */; };
-		20133AE3225E98400063C33F /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20133AE2225E98400063C33F /* OnBoarding.storyboard */; };
+		200B84132275434E0080DAB0 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200B84122275434E0080DAB0 /* OnBoarding.storyboard */; };
 		20133AE5225E9C020063C33F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20133AE4225E9C020063C33F /* RoundButton.swift */; };
 		207B21322270E30E00E32B9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207B21312270E30E00E32B9B /* GoogleService-Info.plist */; };
 		207B21392270E7F800E32B9B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B21382270E7F800E32B9B /* UserManager.swift */; };
@@ -21,6 +21,14 @@
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
 		20D604312273AAE600F4CC52 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D604302273AAE600F4CC52 /* Profile.storyboard */; };
 		20D604372273B11300F4CC52 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D604362273B11300F4CC52 /* AccountViewController.swift */; };
+		20E4DEC1227798D600133AE2 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4DEC0227798D600133AE2 /* NameViewController.swift */; };
+		20E4DEC322779A1300133AE2 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4DEC222779A1300133AE2 /* EmailViewController.swift */; };
+		20E4DEC522779A2700133AE2 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4DEC422779A2700133AE2 /* PasswordViewController.swift */; };
+		20E4DEC722779A3800133AE2 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4DEC622779A3800133AE2 /* BirthdayViewController.swift */; };
+		20E4DECA22779AE100133AE2 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4DEC922779AE100133AE2 /* String+Additions.swift */; };
+		20E4DECF22779DA400133AE2 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 20E4DECC22779DA300133AE2 /* Font Awesome 5 Free-Regular-400.otf */; };
+		20E4DED022779DA400133AE2 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 20E4DECD22779DA300133AE2 /* Font Awesome 5 Brands-Regular-400.otf */; };
+		20E4DED122779DA400133AE2 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 20E4DECE22779DA300133AE2 /* Font Awesome 5 Free-Solid-900.otf */; };
 		20F5D259224C199200C2533C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D258224C199200C2533C /* AppDelegate.swift */; };
 		20F5D25B224C199200C2533C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5D25A224C199200C2533C /* ViewController.swift */; };
 		20F5D25E224C199200C2533C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F5D25C224C199200C2533C /* Main.storyboard */; };
@@ -32,7 +40,6 @@
 		B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4382864227122D300B42F53 /* ActiveLoansController.swift */; };
 		B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D492273CA85003CC750 /* Loan.swift */; };
 		B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D4B22751DC6003CC750 /* Payment.swift */; };
-		DA18B3782273B2BA00972354 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA18B3772273B2BA00972354 /* SignInViewController.swift */; };
 		DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */; };
 		DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */; };
 		DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */; };
@@ -40,9 +47,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		200B84122275434E0080DAB0 /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		20077AD02277AF13008714CD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		200B83E22274DED30080DAB0 /* SignInPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPageViewController.swift; sourceTree = "<group>"; };
-		20133AE2225E98400063C33F /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		200B84122275434E0080DAB0 /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		20133AE4225E9C020063C33F /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		207B21312270E30E00E32B9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		207B21382270E7F800E32B9B /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
@@ -54,6 +61,14 @@
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20D604302273AAE600F4CC52 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		20D604362273B11300F4CC52 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		20E4DEC0227798D600133AE2 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		20E4DEC222779A1300133AE2 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		20E4DEC422779A2700133AE2 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		20E4DEC622779A3800133AE2 /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		20E4DEC922779AE100133AE2 /* String+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		20E4DECC22779DA300133AE2 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		20E4DECD22779DA300133AE2 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		20E4DECE22779DA300133AE2 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
 		20F5D255224C199200C2533C /* MoneyTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F5D258224C199200C2533C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F5D25A224C199200C2533C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +83,6 @@
 		B4382864227122D300B42F53 /* ActiveLoansController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveLoansController.swift; sourceTree = "<group>"; };
 		B46C7D492273CA85003CC750 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		B46C7D4B22751DC6003CC750 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
-		DA18B3772273B2BA00972354 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -88,6 +102,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20077ACC2277AEDA008714CD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20077ACD2277AEDF008714CD /* Model */,
+				20077ACE2277AEE7008714CD /* View */,
+				20077ACF2277AEF1008714CD /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		20077ACD2277AEDF008714CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20077ACE2277AEE7008714CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20077AD02277AF13008714CD /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20077ACF2277AEF1008714CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		20133AE6225E9C080063C33F /* Custom Elements */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +193,10 @@
 			children = (
 				2098A3B9224C230C00293346 /* LoginViewController.swift */,
 				200B83E22274DED30080DAB0 /* SignInPageViewController.swift */,
+				20E4DEC0227798D600133AE2 /* NameViewController.swift */,
+				20E4DEC222779A1300133AE2 /* EmailViewController.swift */,
+				20E4DEC622779A3800133AE2 /* BirthdayViewController.swift */,
+				20E4DEC422779A2700133AE2 /* PasswordViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,6 +243,24 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		20E4DEC822779AC700133AE2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20E4DEC922779AE100133AE2 /* String+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		20E4DECB22779D3300133AE2 /* Font Awesome */ = {
+			isa = PBXGroup;
+			children = (
+				20E4DECD22779DA300133AE2 /* Font Awesome 5 Brands-Regular-400.otf */,
+				20E4DECC22779DA300133AE2 /* Font Awesome 5 Free-Regular-400.otf */,
+				20E4DECE22779DA300133AE2 /* Font Awesome 5 Free-Solid-900.otf */,
+			);
+			path = "Font Awesome";
+			sourceTree = "<group>";
+		};
 		20F5D24C224C199200C2533C = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +282,8 @@
 		20F5D257224C199200C2533C /* MoneyTogether */ = {
 			isa = PBXGroup;
 			children = (
+				20077ACC2277AEDA008714CD /* Home */,
+				20E4DEC822779AC700133AE2 /* Extensions */,
 				208053A3227239980087B947 /* Model */,
 				B4382866227122DD00B42F53 /* Active Loans */,
 				206F5FB52270DBA70002A2DE /* OnBoarding */,
@@ -254,6 +324,7 @@
 		DA449D5D224C2DB9006D61DF /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				20E4DECB22779D3300133AE2 /* Font Awesome */,
 				DA449D5E224C2DC2006D61DF /* Montserrat */,
 			);
 			path = Fonts;
@@ -338,13 +409,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E4DECF22779DA400133AE2 /* Font Awesome 5 Free-Regular-400.otf in Resources */,
 				DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */,
 				DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */,
 				20D604312273AAE600F4CC52 /* Profile.storyboard in Resources */,
 				207B21322270E30E00E32B9B /* GoogleService-Info.plist in Resources */,
 				DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */,
 				20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */,
+				20077AD12277AF13008714CD /* Home.storyboard in Resources */,
+				20E4DED022779DA400133AE2 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
 				20F5D260224C199400C2533C /* Assets.xcassets in Resources */,
+				20E4DED122779DA400133AE2 /* Font Awesome 5 Free-Solid-900.otf in Resources */,
 				20F5D25E224C199200C2533C /* Main.storyboard in Resources */,
 				DA449D66224C2E97006D61DF /* Montserrat-Bold.ttf in Resources */,
 				200B84132275434E0080DAB0 /* OnBoarding.storyboard in Resources */,
@@ -411,6 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E4DEC1227798D600133AE2 /* NameViewController.swift in Sources */,
 				20133AE5225E9C020063C33F /* RoundButton.swift in Sources */,
 				B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */,
 				20F5D25B224C199200C2533C /* ViewController.swift in Sources */,
@@ -421,14 +497,18 @@
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
 				20F5D26B224C1F6900C2533C /* User.swift in Sources */,
 				2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */,
+				20E4DEC722779A3800133AE2 /* BirthdayViewController.swift in Sources */,
 				B43828632271218500B42F53 /* CollectionViewCellActiveLoans.swift in Sources */,
 				2098A3B8224C21C400293346 /* MainViewController.swift in Sources */,
 				208053A5227239B10087B947 /* Card.swift in Sources */,
+				20E4DECA22779AE100133AE2 /* String+Additions.swift in Sources */,
 				20D604372273B11300F4CC52 /* AccountViewController.swift in Sources */,
 				208053A7227242D00087B947 /* CardManager.swift in Sources */,
 				200B83E32274DED30080DAB0 /* SignInPageViewController.swift in Sources */,
+				20E4DEC522779A2700133AE2 /* PasswordViewController.swift in Sources */,
 				207B213D227113EA00E32B9B /* DatabaseRepresentation.swift in Sources */,
 				207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */,
+				20E4DEC322779A1300133AE2 /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DWQVM22U2L;
+				DEVELOPMENT_TEAM = FCZ5M2EEKH;
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,7 +676,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DWQVM22U2L;
+				DEVELOPMENT_TEAM = FCZ5M2EEKH;
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
