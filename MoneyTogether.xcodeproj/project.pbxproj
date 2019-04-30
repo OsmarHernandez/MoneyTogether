@@ -17,6 +17,8 @@
 		207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B213E22711F0200E32B9B /* DatabaseReference.swift */; };
 		208053A5227239B10087B947 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A4227239B10087B947 /* Card.swift */; };
 		208053A7227242D00087B947 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A6227242D00087B947 /* CardManager.swift */; };
+		20958F5D2277B11900FEBD71 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20958F5C2277B11900FEBD71 /* CardView.swift */; };
+		20958F5F2277D75600FEBD71 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20958F5E2277D75600FEBD71 /* MainTabBarController.swift */; };
 		2098A3B8224C21C400293346 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B7224C21C400293346 /* MainViewController.swift */; };
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
 		20D604312273AAE600F4CC52 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D604302273AAE600F4CC52 /* Profile.storyboard */; };
@@ -57,6 +59,8 @@
 		207B213E22711F0200E32B9B /* DatabaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseReference.swift; sourceTree = "<group>"; };
 		208053A4227239B10087B947 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		208053A6227242D00087B947 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		20958F5C2277B11900FEBD71 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		20958F5E2277D75600FEBD71 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2098A3B7224C21C400293346 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20D604302273AAE600F4CC52 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				20133AE4225E9C020063C33F /* RoundButton.swift */,
+				20958F5C2277B11900FEBD71 /* CardView.swift */,
+				20958F5E2277D75600FEBD71 /* MainTabBarController.swift */,
 			);
 			path = "Custom Elements";
 			sourceTree = "<group>";
@@ -488,6 +494,7 @@
 			files = (
 				20E4DEC1227798D600133AE2 /* NameViewController.swift in Sources */,
 				20133AE5225E9C020063C33F /* RoundButton.swift in Sources */,
+				20958F5F2277D75600FEBD71 /* MainTabBarController.swift in Sources */,
 				B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */,
 				20F5D25B224C199200C2533C /* ViewController.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
@@ -508,6 +515,7 @@
 				20E4DEC522779A2700133AE2 /* PasswordViewController.swift in Sources */,
 				207B213D227113EA00E32B9B /* DatabaseRepresentation.swift in Sources */,
 				207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */,
+				20958F5D2277B11900FEBD71 /* CardView.swift in Sources */,
 				20E4DEC322779A1300133AE2 /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

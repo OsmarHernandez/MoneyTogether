@@ -28,4 +28,16 @@ class RoundButton: UIButton {
             self.layer.borderColor = borderColor.cgColor
         }
     }
+    
+    @IBInspectable var shadowRadius: CGFloat = 0.0 {
+        didSet {
+            self.layer.shadowRadius = shadowRadius
+        }
+    }
+    
+    @IBInspectable var shadowOpacity: Float = 0.0 {
+        didSet {
+            self.layer.shadowOpacity = shadowOpacity
+        }
+    }
 }
