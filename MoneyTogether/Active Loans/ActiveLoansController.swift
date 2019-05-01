@@ -8,21 +8,10 @@
 import Foundation
 import FirebaseAuth
 import UIKit
-//import Firebase
-//
-//
-//var ref: DatabaseReference!
-//
-//ref = Database.database().reference()
 
 class ActiveLoansController: UIViewController {
    
-//    var loanTitles = [String] ()
-//
-//    var amountsRemaining = [Int] ()
-    
-    
-    
+ 
     override func viewDidLoad()  {
         super.viewDidLoad()
     }

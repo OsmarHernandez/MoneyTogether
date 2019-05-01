@@ -42,6 +42,7 @@
 		B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4382864227122D300B42F53 /* ActiveLoansController.swift */; };
 		B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D492273CA85003CC750 /* Loan.swift */; };
 		B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D4B22751DC6003CC750 /* Payment.swift */; };
+		B46C7D58227A5442003CC750 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D57227A5442003CC750 /* PopUpViewController.swift */; };
 		DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */; };
 		DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */; };
 		DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */; };
@@ -87,6 +88,7 @@
 		B4382864227122D300B42F53 /* ActiveLoansController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveLoansController.swift; sourceTree = "<group>"; };
 		B46C7D492273CA85003CC750 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		B46C7D4B22751DC6003CC750 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		B46C7D57227A5442003CC750 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpViewController.swift; path = "MoneyTogether/Active Loans/PopUpViewController.swift"; sourceTree = SOURCE_ROOT; };
 		DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -109,9 +111,9 @@
 		20077ACC2277AEDA008714CD /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				20077ACF2277AEF1008714CD /* Controller */,
 				20077ACD2277AEDF008714CD /* Model */,
 				20077ACE2277AEE7008714CD /* View */,
-				20077ACF2277AEF1008714CD /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -134,6 +136,7 @@
 		20077ACF2277AEF1008714CD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B46C7D57227A5442003CC750 /* PopUpViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -499,6 +502,7 @@
 				20F5D25B224C199200C2533C /* ViewController.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
+				B46C7D58227A5442003CC750 /* PopUpViewController.swift in Sources */,
 				B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */,
 				B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */,
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
