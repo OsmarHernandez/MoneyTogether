@@ -1,5 +1,5 @@
 //
-//  PopUpViewController.swift
+//  PopUpRequestLoanViewController.swift
 //  MoneyTogether
 //
 //  Created by Antonio Spinola Flores on 5/1/19.
@@ -8,15 +8,16 @@
 
 import UIKit
 
-class PopUpViewController: UIViewController {
+class PopUpRequestLoanViewController: UIViewController {
 
     
-    @IBAction func cancelButton(_ sender: Any) {
+    @IBAction func closePopUpButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func confirmButton(_ sender: Any) {
+    @IBAction func requestLoanButton(_ sender: Any) {
     }
+    
     
     
     override func viewDidLoad() {
@@ -25,6 +26,5 @@ class PopUpViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
 
 }
