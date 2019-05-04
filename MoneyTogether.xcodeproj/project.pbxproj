@@ -40,10 +40,12 @@
 		3DCE5EF8D1AE9AB249F2E299 /* Pods_MoneyTogether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B561CE4CBFA5489C599826 /* Pods_MoneyTogether.framework */; };
 		B43828632271218500B42F53 /* CollectionViewCellActiveLoans.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43828622271218500B42F53 /* CollectionViewCellActiveLoans.swift */; };
 		B4382865227122D300B42F53 /* ActiveLoansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4382864227122D300B42F53 /* ActiveLoansController.swift */; };
+		B460DD07227D0B1F0038D83D /* Loans.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B460DD06227D0B1F0038D83D /* Loans.storyboard */; };
 		B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D492273CA85003CC750 /* Loan.swift */; };
 		B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D4B22751DC6003CC750 /* Payment.swift */; };
 		B46C7D58227A5442003CC750 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D57227A5442003CC750 /* PopUpViewController.swift */; };
 		B46C7D5A227A6308003CC750 /* PopUpRequestLoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D59227A6308003CC750 /* PopUpRequestLoanViewController.swift */; };
+		B46C7D5C227CF2A5003CC750 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D5B227CF2A5003CC750 /* Checkbox.swift */; };
 		DA449D60224C2E47006D61DF /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */; };
 		DA449D62224C2E76006D61DF /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */; };
 		DA449D64224C2E86006D61DF /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */; };
@@ -87,10 +89,12 @@
 		3BBBFB1ACB6A21287E1139CC /* Pods-MoneyTogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTogether.debug.xcconfig"; path = "Target Support Files/Pods-MoneyTogether/Pods-MoneyTogether.debug.xcconfig"; sourceTree = "<group>"; };
 		B43828622271218500B42F53 /* CollectionViewCellActiveLoans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellActiveLoans.swift; sourceTree = "<group>"; };
 		B4382864227122D300B42F53 /* ActiveLoansController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveLoansController.swift; sourceTree = "<group>"; };
+		B460DD06227D0B1F0038D83D /* Loans.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Loans.storyboard; sourceTree = "<group>"; };
 		B46C7D492273CA85003CC750 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		B46C7D4B22751DC6003CC750 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 		B46C7D57227A5442003CC750 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpViewController.swift; path = "MoneyTogether/Active Loans/PopUpViewController.swift"; sourceTree = SOURCE_ROOT; };
 		B46C7D59227A6308003CC750 /* PopUpRequestLoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpRequestLoanViewController.swift; path = "MoneyTogether/Active Loans/PopUpRequestLoanViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B46C7D5B227CF2A5003CC750 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		DA449D5F224C2E47006D61DF /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		DA449D61224C2E76006D61DF /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		DA449D63224C2E86006D61DF /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -258,6 +262,7 @@
 		20E4DEC822779AC700133AE2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B46C7D5B227CF2A5003CC750 /* Checkbox.swift */,
 				20E4DEC922779AE100133AE2 /* String+Additions.swift */,
 			);
 			path = Extensions;
@@ -294,6 +299,9 @@
 		20F5D257224C199200C2533C /* MoneyTogether */ = {
 			isa = PBXGroup;
 			children = (
+				B460DD02227D0A6B0038D83D /* Payments */,
+				B460DD01227D0A640038D83D /* Loans */,
+				B460DD00227D0A550038D83D /* Cards */,
 				20077ACC2277AEDA008714CD /* Home */,
 				20E4DEC822779AC700133AE2 /* Extensions */,
 				208053A3227239980087B947 /* Model */,
@@ -331,6 +339,52 @@
 				B46C7D4B22751DC6003CC750 /* Payment.swift */,
 			);
 			path = "Active Loans";
+			sourceTree = "<group>";
+		};
+		B460DD00227D0A550038D83D /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		B460DD01227D0A640038D83D /* Loans */ = {
+			isa = PBXGroup;
+			children = (
+				B460DD06227D0B1F0038D83D /* Loans.storyboard */,
+			);
+			path = Loans;
+			sourceTree = "<group>";
+		};
+		B460DD02227D0A6B0038D83D /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				B460DD05227D0ABD0038D83D /* Controller */,
+				B460DD03227D0A9A0038D83D /* Model */,
+				B460DD04227D0AAE0038D83D /* View */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		B460DD03227D0A9A0038D83D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B460DD04227D0AAE0038D83D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B460DD05227D0ABD0038D83D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		DA449D5D224C2DB9006D61DF /* Fonts */ = {
@@ -430,6 +484,7 @@
 				20F5D263224C199400C2533C /* LaunchScreen.storyboard in Resources */,
 				20077AD12277AF13008714CD /* Home.storyboard in Resources */,
 				20E4DED022779DA400133AE2 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
+				B460DD07227D0B1F0038D83D /* Loans.storyboard in Resources */,
 				20F5D260224C199400C2533C /* Assets.xcassets in Resources */,
 				20E4DED122779DA400133AE2 /* Font Awesome 5 Free-Solid-900.otf in Resources */,
 				20F5D25E224C199200C2533C /* Main.storyboard in Resources */,
@@ -502,6 +557,7 @@
 				20133AE5225E9C020063C33F /* RoundButton.swift in Sources */,
 				20958F5F2277D75600FEBD71 /* MainTabBarController.swift in Sources */,
 				B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */,
+				B46C7D5C227CF2A5003CC750 /* Checkbox.swift in Sources */,
 				20F5D25B224C199200C2533C /* ViewController.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
