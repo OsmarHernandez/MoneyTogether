@@ -11,6 +11,9 @@ import UIKit
 class AddCardViewController: UIViewController {
 
     
+    @IBOutlet weak var cardNumberTextField: UITextField!
+    
+    
     var cardType: String! {
         didSet {
             if cardType.hasPrefix("5"){
@@ -35,10 +38,13 @@ class AddCardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.cardNumberTextField.becomeFirstResponder()
      
     }
     
-
+    func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+        self.cardNumberTextField.resignFirstResponder()
+    }
     /*
     // MARK: - Navigation
 
