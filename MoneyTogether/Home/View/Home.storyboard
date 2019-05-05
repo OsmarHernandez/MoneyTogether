@@ -433,14 +433,6 @@
             </objects>
             <point key="canvasLocation" x="674" y="688"/>
         </scene>
-        <!--Profile-->
-        <scene sceneID="TlD-Ft-R3l">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Profile" id="AjA-fp-tzq" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f9u-60-MH7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1584" y="-339"/>
-        </scene>
         <!--MoneyTogether-->
         <scene sceneID="sVJ-aH-Cv5">
             <objects>
@@ -457,9 +449,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <connections>
-                                <segue destination="AjA-fp-tzq" kind="presentation" identifier="showProfileSegue" id="xhj-X5-42A"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rUY-87-8T6">
