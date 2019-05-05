@@ -38,6 +38,7 @@ class LoansController: UIViewController {
     @IBOutlet weak var amountRem: UILabel!
     @IBOutlet weak var detailsTitle: UILabel!
     @IBOutlet weak var nextPayment: UILabel!
+
     
     @IBOutlet weak var borrowedCollectionView: UICollectionView!
     @IBOutlet weak var lendedCollectionView: UICollectionView!
@@ -65,7 +66,6 @@ class LoansController: UIViewController {
         nextPayment.text =  loan.value
     }
 }
-
 
 extension LoansController: UICollectionViewDelegate, UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int {
