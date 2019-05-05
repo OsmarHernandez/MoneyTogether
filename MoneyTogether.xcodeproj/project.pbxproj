@@ -46,8 +46,6 @@
 		B460DD0B227D1AFE0038D83D /* Payments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B460DD0A227D1AFE0038D83D /* Payments.storyboard */; };
 		B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D492273CA85003CC750 /* Loan.swift */; };
 		B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D4B22751DC6003CC750 /* Payment.swift */; };
-		B46C7D58227A5442003CC750 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D57227A5442003CC750 /* PopUpViewController.swift */; };
-		B46C7D5A227A6308003CC750 /* PopUpRequestLoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D59227A6308003CC750 /* PopUpRequestLoanViewController.swift */; };
 		B4B50751227E999D001C4ED1 /* CardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B50750227E999D001C4ED1 /* CardsCollectionViewCell.swift */; };
 		B4B50753227EA7F4001C4ED1 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B50752227EA7F4001C4ED1 /* AddCardViewController.swift */; };
 		DA19EEB6227E89A9007D8067 /* LoansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19EEB5227E89A9007D8067 /* LoansController.swift */; };
@@ -76,7 +74,6 @@
 		20AE63E4227EA66300AF7074 /* UITextField+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Additions.swift"; sourceTree = "<group>"; };
 		20C1FD87227E6D810067292A /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
 		20C1FD8F227E6E120067292A /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
-		20C1FD91227E7DC50067292A /* LoansController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoansController.swift; sourceTree = "<group>"; };
 		20C1FD93227E83CD0067292A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		20D604302273AAE600F4CC52 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		20D604362273B11300F4CC52 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
@@ -102,8 +99,6 @@
 		B460DD0A227D1AFE0038D83D /* Payments.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payments.storyboard; sourceTree = "<group>"; };
 		B46C7D492273CA85003CC750 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		B46C7D4B22751DC6003CC750 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
-		B46C7D57227A5442003CC750 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpViewController.swift; path = "MoneyTogether/Active Loans/PopUpViewController.swift"; sourceTree = SOURCE_ROOT; };
-		B46C7D59227A6308003CC750 /* PopUpRequestLoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpRequestLoanViewController.swift; path = "MoneyTogether/Active Loans/PopUpRequestLoanViewController.swift"; sourceTree = SOURCE_ROOT; };
 		B4B50750227E999D001C4ED1 /* CardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewCell.swift; sourceTree = "<group>"; };
 		B4B50752227EA7F4001C4ED1 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
 		DA19EEB5227E89A9007D8067 /* LoansController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoansController.swift; sourceTree = "<group>"; };
@@ -130,9 +125,9 @@
 		20077ACC2277AEDA008714CD /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				20077ACF2277AEF1008714CD /* Controller */,
 				20077ACD2277AEDF008714CD /* Model */,
 				20077ACE2277AEE7008714CD /* View */,
+				20077ACF2277AEF1008714CD /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -614,7 +609,6 @@
 				20E4DEC1227798D600133AE2 /* NameViewController.swift in Sources */,
 				20133AE5225E9C020063C33F /* RoundButton.swift in Sources */,
 				20AE63E3227E9BC500AF7074 /* RequestViewController.swift in Sources */,
-				20C1FD92227E7DC50067292A /* LoansController.swift in Sources */,
 				20958F5F2277D75600FEBD71 /* MainTabBarController.swift in Sources */,
 				B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
