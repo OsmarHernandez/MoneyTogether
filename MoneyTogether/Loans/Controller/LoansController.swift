@@ -28,8 +28,8 @@ class LoansController: UIViewController {
     ]
     
     let lendedDetails: [(key: String, title: String, amount: Double, remaining: Double, value: String)] = [
-        ("D345634562","Ddespensa Jaime", 1_210.00, 980.00, "01-06-2019"),
-        ("D234667234","DJaime", 790.00, 3_230.00, "13-08-2019")
+        ("D345634562","Despensa Jaime", 1_210.00, 980.00, "01-06-2019"),
+        ("D234667234","Jaime", 790.00, 3_230.00, "13-08-2019")
     ]
     
     @IBOutlet weak var loanID: UILabel!
@@ -68,24 +68,6 @@ class LoansController: UIViewController {
 
 
 extension LoansController: UICollectionViewDelegate, UICollectionViewDataSource {
-    
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        let loan = collectionView == borrowedCollectionView ? details[indexPath.row] : lendedDetails[indexPath.row]
-        
-        loanID.text =  loan.key
-        detailsTitle.text =  loan.title
-        amountReq.text =  numberFormatter.string(from: NSNumber(value: loan.amount))
-        amountRem.text =  numberFormatter.string(from: NSNumber(value: loan.remaining))
-        nextPayment.text =  loan.value
-    }
-    
-    override func viewDidLoad()  {
-        super.viewDidLoad()
-    }
-}
-
-extension LoansController: UICollectionViewDelegate, UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
@@ -118,6 +100,14 @@ extension LoansController: UICollectionViewDelegate, UICollectionViewDataSource 
         return lendedCell
     }
     
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let loan = collectionView == borrowedCollectionView ? details[indexPath.row] : lendedDetails[indexPath.row]
+        
+        loanID.text =  loan.key
+        detailsTitle.text =  loan.title
+        amountReq.text =  numberFormatter.string(from: NSNumber(value: loan.amount))
+        amountRem.text =  numberFormatter.string(from: NSNumber(value: loan.remaining))
+        nextPayment.text =  loan.value
+    }
 }
 
