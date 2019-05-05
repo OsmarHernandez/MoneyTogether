@@ -15,6 +15,10 @@ public enum Patterns: String {
 
 public extension String {
     
+    var isReallyEmpty: Bool {
+        return self.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+    
     func match(_ pattern: String) -> Bool {
         return NSPredicate(format: "SELF MATCHES %@", pattern).evaluate(with: self)
     }

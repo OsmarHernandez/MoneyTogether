@@ -80,6 +80,12 @@ extension LoansController: UICollectionViewDelegate, UICollectionViewDataSource 
         nextPayment.text =  loan.value
     }
     
+    override func viewDidLoad()  {
+        super.viewDidLoad()
+    }
+}
+
+extension LoansController: UICollectionViewDelegate, UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
