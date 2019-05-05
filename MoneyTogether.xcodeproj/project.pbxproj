@@ -45,6 +45,7 @@
 		B460DD0B227D1AFE0038D83D /* Payments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B460DD0A227D1AFE0038D83D /* Payments.storyboard */; };
 		B460DD0D227D20170038D83D /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460DD0C227D20170038D83D /* AddCardViewController.swift */; };
 		B460DD0F227D214D0038D83D /* CardsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460DD0E227D214D0038D83D /* CardsHomeViewController.swift */; };
+		B460DD19227D42020038D83D /* LoansCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460DD18227D42020038D83D /* LoansCollectionViewController.swift */; };
 		B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D492273CA85003CC750 /* Loan.swift */; };
 		B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D4B22751DC6003CC750 /* Payment.swift */; };
 		B46C7D58227A5442003CC750 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D57227A5442003CC750 /* PopUpViewController.swift */; };
@@ -98,6 +99,7 @@
 		B460DD0A227D1AFE0038D83D /* Payments.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payments.storyboard; sourceTree = "<group>"; };
 		B460DD0C227D20170038D83D /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
 		B460DD0E227D214D0038D83D /* CardsHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsHomeViewController.swift; sourceTree = "<group>"; };
+		B460DD18227D42020038D83D /* LoansCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansCollectionViewController.swift; sourceTree = "<group>"; };
 		B46C7D492273CA85003CC750 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		B46C7D4B22751DC6003CC750 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 		B46C7D57227A5442003CC750 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpViewController.swift; path = "MoneyTogether/Active Loans/PopUpViewController.swift"; sourceTree = SOURCE_ROOT; };
@@ -363,6 +365,7 @@
 			isa = PBXGroup;
 			children = (
 				B460DD08227D1AB30038D83D /* Loans.storyboard */,
+				B460DD18227D42020038D83D /* LoansCollectionViewController.swift */,
 			);
 			path = Loans;
 			sourceTree = "<group>";
@@ -597,6 +600,7 @@
 				20958F5D2277B11900FEBD71 /* CardView.swift in Sources */,
 				B46C7D5A227A6308003CC750 /* PopUpRequestLoanViewController.swift in Sources */,
 				20E4DEC322779A1300133AE2 /* EmailViewController.swift in Sources */,
+				B460DD19227D42020038D83D /* LoansCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

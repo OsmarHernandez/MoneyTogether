@@ -21,7 +21,7 @@
         <!--Loans-->
         <scene sceneID="W9F-mm-4sj">
             <objects>
-                <viewController title="Loans" id="zYa-lR-ged" sceneMemberID="viewController">
+                <viewController title="Loans" id="zYa-lR-ged" customClass="LoansCollectionViewController" customModule="MoneyTogether" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uia-4o-O9n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="02D-qb-4dS" customClass="CollectionViewCellActiveLoans" customModule="MoneyTogether" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LoansCell" id="02D-qb-4dS" customClass="CollectionViewCell">
                                         <rect key="frame" x="0.0" y="4.5" width="171" height="112"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -60,6 +60,10 @@
                                                 </label>
                                             </subviews>
                                         </view>
+                                        <connections>
+                                            <outlet property="amountLabel" destination="Yvo-fT-Esk" id="8Os-D0-1BJ"/>
+                                            <outlet property="titleLabel" destination="Ps7-mN-PHK" id="7vh-ql-rxz"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -177,6 +181,11 @@
                     <tabBarItem key="tabBarItem" title="" id="iMJ-Gh-q6t">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-12"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="LoansCellCollectionViewer" destination="oMu-Vt-2Wt" id="F07-Vw-cct"/>
+                        <outlet property="LoansCollectionView" destination="oMu-Vt-2Wt" id="Ftz-mJ-MnE"/>
+                        <outlet property="collectionViewer" destination="oMu-Vt-2Wt" id="bWB-HO-Kq3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ts2-yN-lQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
