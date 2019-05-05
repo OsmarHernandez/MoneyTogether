@@ -8,9 +8,8 @@
 
 import UIKit
 
-class CollectionViewCellActiveLoans: UICollectionViewCell {
+class LoanCollectionViewCell: UICollectionViewCell {
+    
     @IBOutlet weak var loanNameLabel: UILabel!
     @IBOutlet weak var amountLabel: UILabel!
-    
-  
 }

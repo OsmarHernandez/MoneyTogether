@@ -634,10 +634,10 @@
             </objects>
             <point key="canvasLocation" x="1073" y="-361"/>
         </scene>
-        <!--Main-->
+        <!--Home-->
         <scene sceneID="tTA-Ru-OQ7">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="5sy-y3-3qO" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Home" id="5sy-y3-3qO" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9a-qa-ah9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3067" y="-74"/>
@@ -647,6 +647,6 @@
         <image name="MoneyTogether" width="250" height="250"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ynp-MS-WWL"/>
+        <segue reference="SCX-Qd-JHr"/>
     </inferredMetricsTieBreakers>
 </document>
