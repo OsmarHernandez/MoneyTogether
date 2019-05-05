@@ -23,6 +23,7 @@
 		20C1FD88227E6D810067292A /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1FD87227E6D810067292A /* PaymentsViewController.swift */; };
 		20C1FD90227E6E120067292A /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1FD8F227E6E120067292A /* CardsViewController.swift */; };
 		20C1FD92227E7DC50067292A /* LoansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1FD91227E7DC50067292A /* LoansController.swift */; };
+		20C1FD94227E83CD0067292A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1FD93227E83CD0067292A /* HomeViewController.swift */; };
 		20D604312273AAE600F4CC52 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D604302273AAE600F4CC52 /* Profile.storyboard */; };
 		20D604372273B11300F4CC52 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D604362273B11300F4CC52 /* AccountViewController.swift */; };
 		20E4DEC1227798D600133AE2 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4DEC0227798D600133AE2 /* NameViewController.swift */; };
@@ -69,6 +70,7 @@
 		20C1FD87227E6D810067292A /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
 		20C1FD8F227E6E120067292A /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		20C1FD91227E7DC50067292A /* LoansController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoansController.swift; path = ../../../../../../../Downloads/LoansController.swift; sourceTree = "<group>"; };
+		20C1FD93227E83CD0067292A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		20D604302273AAE600F4CC52 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		20D604362273B11300F4CC52 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		20E4DEC0227798D600133AE2 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				B46C7D57227A5442003CC750 /* PopUpViewController.swift */,
 				B46C7D59227A6308003CC750 /* PopUpRequestLoanViewController.swift */,
+				20C1FD93227E83CD0067292A /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -613,6 +616,7 @@
 				208053A5227239B10087B947 /* Card.swift in Sources */,
 				20E4DECA22779AE100133AE2 /* String+Additions.swift in Sources */,
 				20D604372273B11300F4CC52 /* AccountViewController.swift in Sources */,
+				20C1FD94227E83CD0067292A /* HomeViewController.swift in Sources */,
 				208053A7227242D00087B947 /* CardManager.swift in Sources */,
 				200B83E32274DED30080DAB0 /* SignInPageViewController.swift in Sources */,
 				20E4DEC522779A2700133AE2 /* PasswordViewController.swift in Sources */,
