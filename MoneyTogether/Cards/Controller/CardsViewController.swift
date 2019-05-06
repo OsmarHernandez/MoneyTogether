@@ -15,6 +15,9 @@ class CardsViewController: UIViewController{
         ("345634562","Despensa", "Jaime Solis","VISA"), ("234667234","Jaime", "Osmar Hernandez","VISA"), ("xxxxxxx","xxxxxxx", "Antonio Spinola","VISA")
     ]
     
+    
+    
+    
     @IBOutlet weak var cardCollectionView: UICollectionView!
   
     

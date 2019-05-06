@@ -22,4 +22,14 @@ public extension String {
     func match(_ pattern: String) -> Bool {
         return NSPredicate(format: "SELF MATCHES %@", pattern).evaluate(with: self)
     }
+    
+    var prefixes: String {
+        let delimeter = "-"
+        return self.components(separatedBy: delimeter).first!
+    }
+    
+    var sufixes: String {
+        let delimeter = "-"
+        return self.components(separatedBy: delimeter).last!
+    }
 }

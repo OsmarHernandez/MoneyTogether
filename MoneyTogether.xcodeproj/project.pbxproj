@@ -46,6 +46,15 @@
 		B460DD0B227D1AFE0038D83D /* Payments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B460DD0A227D1AFE0038D83D /* Payments.storyboard */; };
 		B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D492273CA85003CC750 /* Loan.swift */; };
 		B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7D4B22751DC6003CC750 /* Payment.swift */; };
+		B49A8E83227FCBC400520592 /* NetworkProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8E82227FCBC400520592 /* NetworkProcess.swift */; };
+		B49A8E85227FD00200520592 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8E84227FD00200520592 /* NetworkConfig.swift */; };
+		B49A8E88227FDBCA00520592 /* demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49A8E87227FDBCA00520592 /* demo.storyboard */; };
+		B49A8E8A227FDC2100520592 /* demoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8E89227FDC2100520592 /* demoViewController.swift */; };
+		B49A8E8C227FFCA300520592 /* CardsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8E8B227FFCA300520592 /* CardsService.swift */; };
+		B49A8E9222801F6C00520592 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8E9122801F6C00520592 /* APIServices.swift */; };
+		B49A8E94228020C400520592 /* LoansService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8E93228020C400520592 /* LoansService.swift */; };
+		B49A8E9622802F6E00520592 /* PaymentsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8E9522802F6E00520592 /* PaymentsService.swift */; };
+		B49A8E9A228033C600520592 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8E99228033C600520592 /* UsersService.swift */; };
 		B4B50751227E999D001C4ED1 /* CardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B50750227E999D001C4ED1 /* CardsCollectionViewCell.swift */; };
 		B4B50753227EA7F4001C4ED1 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B50752227EA7F4001C4ED1 /* AddCardViewController.swift */; };
 		DA19EEB6227E89A9007D8067 /* LoansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19EEB5227E89A9007D8067 /* LoansController.swift */; };
@@ -99,6 +108,15 @@
 		B460DD0A227D1AFE0038D83D /* Payments.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payments.storyboard; sourceTree = "<group>"; };
 		B46C7D492273CA85003CC750 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		B46C7D4B22751DC6003CC750 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		B49A8E82227FCBC400520592 /* NetworkProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProcess.swift; sourceTree = "<group>"; };
+		B49A8E84227FD00200520592 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		B49A8E87227FDBCA00520592 /* demo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = demo.storyboard; sourceTree = "<group>"; };
+		B49A8E89227FDC2100520592 /* demoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoViewController.swift; sourceTree = "<group>"; };
+		B49A8E8B227FFCA300520592 /* CardsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsService.swift; sourceTree = "<group>"; };
+		B49A8E9122801F6C00520592 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		B49A8E93228020C400520592 /* LoansService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansService.swift; sourceTree = "<group>"; };
+		B49A8E9522802F6E00520592 /* PaymentsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsService.swift; sourceTree = "<group>"; };
+		B49A8E99228033C600520592 /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
 		B4B50750227E999D001C4ED1 /* CardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewCell.swift; sourceTree = "<group>"; };
 		B4B50752227EA7F4001C4ED1 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
 		DA19EEB5227E89A9007D8067 /* LoansController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoansController.swift; sourceTree = "<group>"; };
@@ -375,6 +393,8 @@
 		20F5D257224C199200C2533C /* MoneyTogether */ = {
 			isa = PBXGroup;
 			children = (
+				B49A8E86227FDBBB00520592 /* Demo */,
+				B49A8E81227FCAEB00520592 /* HerokuAPI */,
 				20E4DEC822779AC700133AE2 /* Extensions */,
 				206F5FB52270DBA70002A2DE /* OnBoarding */,
 				20077ACC2277AEDA008714CD /* Home */,
@@ -437,6 +457,29 @@
 				B460DD0A227D1AFE0038D83D /* Payments.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B49A8E81227FCAEB00520592 /* HerokuAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B49A8E82227FCBC400520592 /* NetworkProcess.swift */,
+				B49A8E84227FD00200520592 /* NetworkConfig.swift */,
+				B49A8E9122801F6C00520592 /* APIServices.swift */,
+				B49A8E8B227FFCA300520592 /* CardsService.swift */,
+				B49A8E93228020C400520592 /* LoansService.swift */,
+				B49A8E9522802F6E00520592 /* PaymentsService.swift */,
+				B49A8E99228033C600520592 /* UsersService.swift */,
+			);
+			path = HerokuAPI;
+			sourceTree = "<group>";
+		};
+		B49A8E86227FDBBB00520592 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B49A8E87227FDBCA00520592 /* demo.storyboard */,
+				B49A8E89227FDC2100520592 /* demoViewController.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		DA449D5D224C2DB9006D61DF /* Fonts */ = {
@@ -542,6 +585,7 @@
 				20F5D260224C199400C2533C /* Assets.xcassets in Resources */,
 				20E4DED122779DA400133AE2 /* Font Awesome 5 Free-Solid-900.otf in Resources */,
 				DA449D66224C2E97006D61DF /* Montserrat-Bold.ttf in Resources */,
+				B49A8E88227FDBCA00520592 /* demo.storyboard in Resources */,
 				200B84132275434E0080DAB0 /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,15 +653,19 @@
 				20E4DEC1227798D600133AE2 /* NameViewController.swift in Sources */,
 				20133AE5225E9C020063C33F /* RoundButton.swift in Sources */,
 				20AE63E3227E9BC500AF7074 /* RequestViewController.swift in Sources */,
+				B49A8E94228020C400520592 /* LoansService.swift in Sources */,
 				20958F5F2277D75600FEBD71 /* MainTabBarController.swift in Sources */,
 				B46C7D4A2273CA85003CC750 /* Loan.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
 				20AE63E5227EA66300AF7074 /* UITextField+Additions.swift in Sources */,
+				B49A8E9A228033C600520592 /* UsersService.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
+				B49A8E8C227FFCA300520592 /* CardsService.swift in Sources */,
 				B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */,
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
 				20C1FD90227E6E120067292A /* CardsViewController.swift in Sources */,
 				20F5D26B224C1F6900C2533C /* User.swift in Sources */,
+				B49A8E9622802F6E00520592 /* PaymentsService.swift in Sources */,
 				2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */,
 				20E4DEC722779A3800133AE2 /* BirthdayViewController.swift in Sources */,
 				B4B50753227EA7F4001C4ED1 /* AddCardViewController.swift in Sources */,
@@ -629,10 +677,14 @@
 				20C1FD94227E83CD0067292A /* HomeViewController.swift in Sources */,
 				208053A7227242D00087B947 /* CardManager.swift in Sources */,
 				DA19EEBA227EC3D2007D8067 /* PaymentCell.swift in Sources */,
+				B49A8E85227FD00200520592 /* NetworkConfig.swift in Sources */,
 				200B83E32274DED30080DAB0 /* SignInPageViewController.swift in Sources */,
+				B49A8E9222801F6C00520592 /* APIServices.swift in Sources */,
+				B49A8E83227FCBC400520592 /* NetworkProcess.swift in Sources */,
 				DA19EEB6227E89A9007D8067 /* LoansController.swift in Sources */,
 				20E4DEC522779A2700133AE2 /* PasswordViewController.swift in Sources */,
 				207B213D227113EA00E32B9B /* DatabaseRepresentation.swift in Sources */,
+				B49A8E8A227FDC2100520592 /* demoViewController.swift in Sources */,
 				207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */,
 				20958F5D2277B11900FEBD71 /* CardView.swift in Sources */,
 				20E4DEC322779A1300133AE2 /* EmailViewController.swift in Sources */,
@@ -776,7 +828,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FCZ5M2EEKH;
+				DEVELOPMENT_TEAM = DWQVM22U2L;
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -796,7 +848,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FCZ5M2EEKH;
+				DEVELOPMENT_TEAM = DWQVM22U2L;
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

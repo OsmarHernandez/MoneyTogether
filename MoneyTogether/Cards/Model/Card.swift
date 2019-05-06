@@ -20,15 +20,19 @@ class Card: NSObject {
         case mastercard
     }
     
-    private let number: String
+    public let number: String
     private let expirationDate: (String, String)
     private var name: String?
+    private let owner: String
     private let type: CardType
     
-    init(number: String, expirationDate: (String, String), type: CardType, name: String?) {
+    
+    
+    init(number: String, expirationDate: (String, String), owner: String, type: CardType, name: String?) {
         self.number = number
         self.expirationDate = expirationDate
         self.name = name
+        self.owner = owner
         self.type = type
     }
     

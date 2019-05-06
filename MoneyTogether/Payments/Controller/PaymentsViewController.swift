@@ -11,10 +11,8 @@ import UIKit
 class PaymentsViewController: UIViewController {
     
     let payments: [Payment] = [
-        Payment(loanId: UUID.init().uuidString, title: "Pa las putas Martes: ", payTo: "Osmar Hernández", paymentAmount: 4_500.00, payDate: "15-04-2019"),
-        Payment(loanId: UUID.init().uuidString, title: "Pa las putas Viernes", payTo: "Osmar Hernández", paymentAmount: 720.00, payDate: "17-05-2019"),
-        Payment(loanId: UUID.init().uuidString, title: "Pa las putas Sabado", payTo: "Osmar Hernández", paymentAmount: 1_200.00, payDate: "02-05-2019"),
-        Payment(loanId: UUID.init().uuidString, title: "Pa las putas Miercoles", payTo: "Osmar Hernández", paymentAmount: 2_130.00, payDate: "24-06-2019")
+        Payment(loanId: "String", paymentAmount: 100.0, payDate: "String")
+        
     ]
     
     @IBOutlet weak var conceptLabel: UILabel!
@@ -38,8 +36,8 @@ class PaymentsViewController: UIViewController {
     func initialSetup() {
         let payment = payments[0]
         
-        conceptLabel.text = payment.title
-        toWhomLabel.text = payment.payTo
+        conceptLabel.text = payment.loanId
+        toWhomLabel.text = payment.payDate
         dateLabel.text = payment.payDate
         amountLabel.text = numberFormatter.string(from: NSNumber(value: payment.paymentAmount))
     }
@@ -53,7 +51,7 @@ extension PaymentsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let paymentCell = tableView.dequeueReusableCell(withIdentifier: "paymentCell", for: indexPath) as! PaymentCell
         
-        paymentCell.titleLabel.text = payments[indexPath.row].title
+        paymentCell.titleLabel.text = payments[indexPath.row].loanId
         paymentCell.dateLabel.text = payments[indexPath.row].payDate
         
         return paymentCell
@@ -70,8 +68,8 @@ extension PaymentsViewController: UITableViewDelegate, UITableViewDataSource {
         paymentCell.titleLabel.textColor = UIColor.red
          paymentCell.titleLabel.text = payments[indexPath.row].title*/
         
-        conceptLabel.text = payment.title
-        toWhomLabel.text = payment.payTo
+        conceptLabel.text = payment.loanId
+        toWhomLabel.text = payment.loanId
         dateLabel.text = payment.payDate
         amountLabel.text = numberFormatter.string(from: NSNumber(value: payment.paymentAmount))
     }
