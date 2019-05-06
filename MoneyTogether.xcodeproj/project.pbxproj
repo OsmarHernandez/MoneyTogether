@@ -15,8 +15,10 @@
 		207B21392270E7F800E32B9B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B21382270E7F800E32B9B /* UserManager.swift */; };
 		207B213D227113EA00E32B9B /* DatabaseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B213C227113EA00E32B9B /* DatabaseRepresentation.swift */; };
 		207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B213E22711F0200E32B9B /* DatabaseReference.swift */; };
+		207DB7492280331B00565FBE /* NewLoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207DB7482280331B00565FBE /* NewLoanViewController.swift */; };
 		208053A5227239B10087B947 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A4227239B10087B947 /* Card.swift */; };
 		208053A7227242D00087B947 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A6227242D00087B947 /* CardManager.swift */; };
+		2088B2A0227FF92400F27935 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2088B29F227FF92400F27935 /* SendViewController.swift */; };
 		20958F5D2277B11900FEBD71 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20958F5C2277B11900FEBD71 /* CardView.swift */; };
 		20958F5F2277D75600FEBD71 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20958F5E2277D75600FEBD71 /* MainTabBarController.swift */; };
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
@@ -65,8 +67,10 @@
 		207B21382270E7F800E32B9B /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		207B213C227113EA00E32B9B /* DatabaseRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseRepresentation.swift; sourceTree = "<group>"; };
 		207B213E22711F0200E32B9B /* DatabaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseReference.swift; sourceTree = "<group>"; };
+		207DB7482280331B00565FBE /* NewLoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoanViewController.swift; sourceTree = "<group>"; };
 		208053A4227239B10087B947 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		208053A6227242D00087B947 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		2088B29F227FF92400F27935 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
 		20958F5C2277B11900FEBD71 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		20958F5E2277D75600FEBD71 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 			children = (
 				20C1FD93227E83CD0067292A /* HomeViewController.swift */,
 				20AE63E2227E9BC500AF7074 /* RequestViewController.swift */,
+				2088B29F227FF92400F27935 /* SendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +164,9 @@
 		20133AE6225E9C080063C33F /* Custom Elements */ = {
 			isa = PBXGroup;
 			children = (
+				B4B50750227E999D001C4ED1 /* CardsCollectionViewCell.swift */,
+				DA19EEB9227EC3D2007D8067 /* PaymentCell.swift */,
+				B43828622271218500B42F53 /* LoanCollectionViewCell.swift */,
 				20133AE4225E9C020063C33F /* RoundButton.swift */,
 				20958F5C2277B11900FEBD71 /* CardView.swift */,
 				20958F5E2277D75600FEBD71 /* MainTabBarController.swift */,
@@ -246,7 +254,6 @@
 			isa = PBXGroup;
 			children = (
 				20C1FD87227E6D810067292A /* PaymentsViewController.swift */,
-				DA19EEB9227EC3D2007D8067 /* PaymentCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -255,7 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				DA19EEB5227E89A9007D8067 /* LoansController.swift */,
-				B43828622271218500B42F53 /* LoanCollectionViewCell.swift */,
+				207DB7482280331B00565FBE /* NewLoanViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -280,7 +287,6 @@
 			isa = PBXGroup;
 			children = (
 				20C1FD8F227E6E120067292A /* CardsViewController.swift */,
-				B4B50750227E999D001C4ED1 /* CardsCollectionViewCell.swift */,
 				B4B50752227EA7F4001C4ED1 /* AddCardViewController.swift */,
 			);
 			path = Controller;
@@ -629,11 +635,13 @@
 				20C1FD94227E83CD0067292A /* HomeViewController.swift in Sources */,
 				208053A7227242D00087B947 /* CardManager.swift in Sources */,
 				DA19EEBA227EC3D2007D8067 /* PaymentCell.swift in Sources */,
+				207DB7492280331B00565FBE /* NewLoanViewController.swift in Sources */,
 				200B83E32274DED30080DAB0 /* SignInPageViewController.swift in Sources */,
 				DA19EEB6227E89A9007D8067 /* LoansController.swift in Sources */,
 				20E4DEC522779A2700133AE2 /* PasswordViewController.swift in Sources */,
 				207B213D227113EA00E32B9B /* DatabaseRepresentation.swift in Sources */,
 				207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */,
+				2088B2A0227FF92400F27935 /* SendViewController.swift in Sources */,
 				20958F5D2277B11900FEBD71 /* CardView.swift in Sources */,
 				20E4DEC322779A1300133AE2 /* EmailViewController.swift in Sources */,
 				B4B50751227E999D001C4ED1 /* CardsCollectionViewCell.swift in Sources */,
