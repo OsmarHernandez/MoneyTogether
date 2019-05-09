@@ -17,11 +17,11 @@
 		207B213F22711F0200E32B9B /* DatabaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B213E22711F0200E32B9B /* DatabaseReference.swift */; };
 		207DB7492280331B00565FBE /* NewLoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207DB7482280331B00565FBE /* NewLoanViewController.swift */; };
 		208053A5227239B10087B947 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A4227239B10087B947 /* Card.swift */; };
-		208053A7227242D00087B947 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208053A6227242D00087B947 /* CardManager.swift */; };
 		2088B2A0227FF92400F27935 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2088B29F227FF92400F27935 /* SendViewController.swift */; };
 		20958F5D2277B11900FEBD71 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20958F5C2277B11900FEBD71 /* CardView.swift */; };
 		20958F5F2277D75600FEBD71 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20958F5E2277D75600FEBD71 /* MainTabBarController.swift */; };
 		2098A3BA224C230C00293346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098A3B9224C230C00293346 /* LoginViewController.swift */; };
+		20AA3A3B22814A9400258D37 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AA3A3A22814A9400258D37 /* Constants.swift */; };
 		20AE63E3227E9BC500AF7074 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AE63E2227E9BC500AF7074 /* RequestViewController.swift */; };
 		20AE63E5227EA66300AF7074 /* UITextField+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AE63E4227EA66300AF7074 /* UITextField+Additions.swift */; };
 		20C1FD88227E6D810067292A /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1FD87227E6D810067292A /* PaymentsViewController.swift */; };
@@ -78,11 +78,11 @@
 		207B213E22711F0200E32B9B /* DatabaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseReference.swift; sourceTree = "<group>"; };
 		207DB7482280331B00565FBE /* NewLoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoanViewController.swift; sourceTree = "<group>"; };
 		208053A4227239B10087B947 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		208053A6227242D00087B947 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
 		2088B29F227FF92400F27935 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
 		20958F5C2277B11900FEBD71 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		20958F5E2277D75600FEBD71 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2098A3B9224C230C00293346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20AA3A3A22814A9400258D37 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		20AE63E2227E9BC500AF7074 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
 		20AE63E4227EA66300AF7074 /* UITextField+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Additions.swift"; sourceTree = "<group>"; };
 		20C1FD87227E6D810067292A /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +198,7 @@
 				20F5D258224C199200C2533C /* AppDelegate.swift */,
 				20F5D25F224C199400C2533C /* Assets.xcassets */,
 				20F5D261224C199400C2533C /* LaunchScreen.storyboard */,
+				20AA3A3A22814A9400258D37 /* Constants.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -218,7 +219,6 @@
 				208053A3227239980087B947 /* Model */,
 				207B213E22711F0200E32B9B /* DatabaseReference.swift */,
 				207B21382270E7F800E32B9B /* UserManager.swift */,
-				208053A6227242D00087B947 /* CardManager.swift */,
 			);
 			path = FirebaseAPI;
 			sourceTree = "<group>";
@@ -667,6 +667,7 @@
 				B49A8E9A228033C600520592 /* UsersService.swift in Sources */,
 				207B21392270E7F800E32B9B /* UserManager.swift in Sources */,
 				B49A8E8C227FFCA300520592 /* CardsService.swift in Sources */,
+				20AA3A3B22814A9400258D37 /* Constants.swift in Sources */,
 				B46C7D4C22751DC6003CC750 /* Payment.swift in Sources */,
 				20F5D259224C199200C2533C /* AppDelegate.swift in Sources */,
 				20C1FD90227E6E120067292A /* CardsViewController.swift in Sources */,
@@ -681,7 +682,6 @@
 				20E4DECA22779AE100133AE2 /* String+Additions.swift in Sources */,
 				20D604372273B11300F4CC52 /* AccountViewController.swift in Sources */,
 				20C1FD94227E83CD0067292A /* HomeViewController.swift in Sources */,
-				208053A7227242D00087B947 /* CardManager.swift in Sources */,
 				DA19EEBA227EC3D2007D8067 /* PaymentCell.swift in Sources */,
 				B49A8E85227FD00200520592 /* NetworkConfig.swift in Sources */,
 				207DB7492280331B00565FBE /* NewLoanViewController.swift in Sources */,
@@ -836,7 +836,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DWQVM22U2L;
+				DEVELOPMENT_TEAM = FCZ5M2EEKH;
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -856,7 +856,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DWQVM22U2L;
+				DEVELOPMENT_TEAM = FCZ5M2EEKH;
 				INFOPLIST_FILE = MoneyTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

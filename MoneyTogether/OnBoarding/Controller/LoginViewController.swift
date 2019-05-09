@@ -12,6 +12,7 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var wrongCredentialsLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +37,7 @@ class LoginViewController: UIViewController {
                 self.performSegue(withIdentifier: "showMainSegue", sender: sender)
             } else {
                 print("Credenciales incorrectas")
+                self.wrongCredentialsLabel.isHidden = false
             }
         }
     }

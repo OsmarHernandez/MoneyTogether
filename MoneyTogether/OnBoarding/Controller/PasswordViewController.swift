@@ -25,16 +25,14 @@ class PasswordViewController: UIViewController {
     }
     
     @IBAction func goToNextPage(_ sender: UIButton) {
-        if validPassword != nil {
-            UserManager.create {
-                (success) in
-                
-                if success {
-                    print("Usuario Creado!")
-                    self.performSegue(withIdentifier: "showMainSegue", sender: sender)
-                } else {
-                    print("Algo salio mal")
-                }
+        UserManager.create {
+            (success) in
+            
+            if success {
+                print("Usuario Creado!")
+                self.performSegue(withIdentifier: "showMainSegue", sender: sender)
+            } else {
+                print("Algo salio mal")
             }
         }
     }
@@ -45,6 +43,7 @@ class PasswordViewController: UIViewController {
         }
         
         password = text
+        passwordCheck.isHidden = false
     }
     
     @IBAction func retypePassword(_ sender: UITextField) {
@@ -53,5 +52,23 @@ class PasswordViewController: UIViewController {
         }
         
         validPassword = password
+        retypePasswordCheck.isHidden = false
+    }
+}
+
+extension PasswordViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        guard let passwd = password, let validPasswd = validPassword, passwd == validPasswd else {
+            return
+        }
+        
+        UserDefaults.standard.set(validPasswd, forKey: "user.password")
+        continueButton.isHidden = false
     }
 }

@@ -16,6 +16,8 @@ class EmailViewController: UIViewController {
     @IBOutlet weak var emailCheck: UILabel!
     @IBOutlet weak var continueButton: UIButton!
     
+    var email: String!
+    
     @IBAction func goToPreviousPage(_ sender: UIButton) {
         pageVC.setViewControllers([pageVC.vc.first!], direction: .reverse, animated: true, completion: nil)
     }
@@ -30,11 +32,27 @@ class EmailViewController: UIViewController {
     }
     
     @IBAction func setEmail(_ sender: UITextField) {
-        guard let email = sender.text, email.match(Patterns.email.rawValue) else {
+        guard let text = sender.text, text.match(Patterns.email.rawValue) else {
             return
         }
         
-        UserDefaults.standard.set(email, forKey: "user.email")
+        email = text
+        
+        UserDefaults.standard.set(text, forKey: "user.email")
         emailCheck.isHidden = false
+    }
+}
+
+extension EmailViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        if email != nil {
+            continueButton.isHidden = false
+        }
     }
 }

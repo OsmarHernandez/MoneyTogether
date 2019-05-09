@@ -15,14 +15,14 @@ class User: NSObject {
     private var firstname: String
     private var lastname: String
     private var email: String
-    private var password: String
+    private var birthdate: String
     public var uid: String? = nil
     
-    init(firstname: String, lastname: String, email: String, password: String) {
+    init(firstname: String, lastname: String, email: String, birthdate: String) {
         self.firstname = firstname
         self.lastname = lastname
         self.email = email
-        self.password = password
+        self.birthdate = birthdate
     }
     
     public var getName: String {
@@ -40,7 +40,8 @@ extension User: DatabaseRepresentation {
         let rep: [String : Any] = [
             "firstname" : firstname,
             "lastname" : lastname,
-            "email" : email
+            "email" : email,
+            "birthdate" : birthdate
         ]
         
         return rep

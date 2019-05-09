@@ -18,7 +18,7 @@
         <!--Account-->
         <scene sceneID="cJy-dq-Few">
             <objects>
-                <viewController title="Account" id="PZM-ku-fkp" customClass="AccountViewController" customModule="MoneyTogether" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="profileVC" title="Account" id="PZM-ku-fkp" customClass="AccountViewController" customModule="MoneyTogether" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6P7-VQ-OQ3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,6 +55,9 @@
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="logOutButton:" destination="PZM-ku-fkp" eventType="touchUpInside" id="qup-uZ-kIy"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYU-Mz-6t6">
                                 <rect key="frame" x="37" y="294" width="300" height="44"/>
@@ -81,6 +84,9 @@
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="deleteAccount:" destination="PZM-ku-fkp" eventType="touchUpInside" id="dQi-yN-cAM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -89,7 +95,7 @@
                     <connections>
                         <outlet property="emailLabel" destination="TYU-Mz-6t6" id="e0L-qW-hhq"/>
                         <outlet property="fullnameLabel" destination="Q4U-iz-dZO" id="HCV-aQ-uww"/>
-                        <segue destination="Cqb-Qc-sIa" kind="show" identifier="showOnBoardingSegue" id="UX3-LW-WTg"/>
+                        <segue destination="Cqb-Qc-sIa" kind="presentation" identifier="showOnBoardingSegue" id="UX3-LW-WTg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kx5-BZ-ksc" userLabel="First Responder" sceneMemberID="firstResponder"/>

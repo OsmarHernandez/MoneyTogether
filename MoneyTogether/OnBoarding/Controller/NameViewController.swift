@@ -34,7 +34,7 @@ class NameViewController: UIViewController {
     }
     
     @IBAction func setFirstname(_ sender: UITextField) {
-        guard let firstname = sender.text else {
+        guard let firstname = sender.text, !firstname.isReallyEmpty else {
             return
         }
         
@@ -43,7 +43,7 @@ class NameViewController: UIViewController {
     }
     
     @IBAction func setLastname(_ sender: UITextField) {
-        guard let lastname = sender.text else {
+        guard let lastname = sender.text, !lastname.isReallyEmpty else {
             return
         }
         
@@ -59,12 +59,9 @@ extension NameViewController: UITextFieldDelegate {
         return true
     }
     
-    /*
     func textFieldDidEndEditing(_ textField: UITextField) {
         if !firstnameCheck.isHidden && !lastnameCheck.isHidden {
-            continueMessageLabel.isHidden = false
             continueButton.isHidden = false
         }
     }
-    */
 }

@@ -66,9 +66,9 @@ class UsersService{
                     let firstname = dictionary["firstname"] as! String
                     let lastname = dictionary["lastname"] as! String
                     let email = dictionary["email"] as! String
-                    let password = dictionary["password"] as! String
+                    let birthdate = dictionary["birthdate"] as! String
                     
-                    let user = User(firstname: firstname, lastname: lastname, email: email, password: password)
+                    let user = User(firstname: firstname, lastname: lastname, email: email, birthdate: birthdate)
                     
                     users.append(user)
                 }

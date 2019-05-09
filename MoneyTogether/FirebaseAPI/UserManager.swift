@@ -49,8 +49,8 @@ public struct UserManager {
      */
     public static func create(completion: @escaping (_ success: Bool) -> ()) {
         
-        let email = "money.together.tec@gmail.com"
-        let password = "passwd"
+        let email = Constants.userDefaults("user.email")!
+        let password = Constants.userDefaults("user.password")!
         
         /*
          * Funcion de firebase
@@ -63,10 +63,11 @@ public struct UserManager {
             (result, error) in
             
             if error == nil {
-                let firstname = "Money"
-                let lastname = "Together"
+                let firstname = Constants.userDefaults("user.firstname")!
+                let lastname = Constants.userDefaults("user.password")!
+                let birthdate = Constants.userDefaults("user.birthdate")!
                 
-                let user = User(firstname: firstname, lastname: lastname, email: email, password: password)
+                let user = User(firstname: firstname, lastname: lastname, email: email, birthdate: birthdate)
                 user.uid = result?.user.uid
                 
                 add(new: user)
